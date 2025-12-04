@@ -14,13 +14,13 @@ AI-powered adaptive math word problems that adjust to your skill level in real-t
 
 ### Option 1: Use Deployed App
 
-Visit the live app: **[Your App URL]**
+Visit the live app: **mathbuddies.streamlit.app**
 
 ### Option 2: Run Locally
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/yourusername/math-practice-app.git
+   git clone https://github.com/hyungjinkim8/math-practice-app.git
    cd math-practice-app
 ```
 
