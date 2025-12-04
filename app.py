@@ -62,9 +62,9 @@ st.set_page_config(page_title="Adaptive Math Practice", page_icon="🧮")
 # ============================================================================
 
 USER_CREDENTIALS = {
-    "eunhae": "apple1",
-    "hyungjin": "peach3",
-    "chris": "orange2"
+    "apple": "apple1",
+    "peach": "peach3",
+    "orange": "orange2"
 }
 
 def ensure_login():
