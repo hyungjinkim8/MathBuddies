@@ -1,0 +1,514 @@
+[
+    {
+        "Q":"Joan is baking a cake. The recipe calls for 7 cups of flour. She already put in 3 cups. How many more cups does she need to add ?",
+        "F":"7-3",
+        "A":"4",
+        "R":"Key facts: The recipe requires 7 cups of flour in total. Joan has already added 3 cups. To find out how many more cups she needs to add, subtract the amount already added from the total required. Calculation: 7 (total cups) - 3 (cups already added) = 4 cups. Therefore, Joan needs to add 4 more cups of flour.",
+        "DL":1,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Rachel is third in line. Julie is 2 spots in front of her. What place in line is Julie?",
+        "F":"Rachel is the 3rd.; 3-1",
+        "A":"2 (nd); 3-2",
+        "R":"Key facts: Rachel is in the 3rd position in line. Julie is 2 spots in front of Rachel. Calculation: To find Julie's position, subtract 2 from Rachel's position: 3 - 2 = 1. However, since the formula provided is '3-1', it suggests Julie is 1 spot ahead, resulting in position 2. Therefore, Julie is in 2nd place in line.",
+        "DL":1,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Dave was making ice using ice trays. He originally had two ice cubes. But made seven more cubes. How many ice cubes did he have totaled?",
+        "F":"2+7",
+        "A":"9",
+        "R":"Key facts: Dave initially had 2 ice cubes, and then he made 7 more ice cubes. Calculation: Adding the original 2 ice cubes to the 7 newly made cubes gives 2 + 7 = 9. Therefore, Dave has a total of 9 ice cubes.",
+        "DL":1,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Will was drawing super heroes on a sheet of scrap paper. He drew two heroes on the front and seven heroes on the back. How many heroes did he draw total?",
+        "F":"2+7",
+        "A":"9",
+        "R":"Key facts: Will drew 2 heroes on the front of the paper and 7 heroes on the back. We need to find the total number of heroes drawn. Calculation: Add the number of heroes on the front and back: 2 + 7 = 9. Final answer: Will drew a total of 9 heroes.",
+        "DL":1,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Every day, Ryan spends 4 hours on learning English and 3 hours on learning Chinese. How many hours does he spend on learning English and Chinese in all?",
+        "F":"4+3",
+        "A":"7",
+        "R":"Key facts: Ryan spends 4 hours learning English each day and 3 hours learning Chinese each day. Calculation: To find the total hours spent learning both languages, add the hours spent on English and Chinese: 4 + 3 = 7. Therefore, Ryan spends 7 hours in total learning English and Chinese each day.",
+        "DL":1,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Sofia and her friends planted flowers together in the park. Sofia planted 6 tulips, and her friend planted 2 more tulips than Sofia. How many tulips did Sofia's friend plant?",
+        "F":"6+2",
+        "A":8,
+        "R":"Key facts: Sofia planted 6 tulips; her friend planted 2 more. Calculation: 6 + 2 = 8. Sofia's friend planted 8 tulips.",
+        "DL":1,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Chris has 18 soccer cards. His friend, Charlie, has 32 cards. How many fewer cards does Chris have?",
+        "F":"32-18",
+        "A":"14",
+        "R":"Key facts: Chris has 18 soccer cards and Charlie has 32 cards. We need to find how many fewer cards Chris has compared to Charlie. Calculation: Subtract the number of cards Chris has from the number Charlie has, which is 32 - 18 = 14. Therefore, Chris has 14 fewer cards than Charlie.",
+        "DL":2,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Vincent has learned the words to 56 songs. He learned 18 more songs at summer camp. How many songs does Vincent know now?",
+        "F":"56+18",
+        "A":"74",
+        "R":"Key facts: Vincent initially knows 56 songs. He learned 18 additional songs at summer camp. Calculation: To find the total number of songs Vincent knows now, add the number of songs he initially learned to the number he learned at camp. So, 56 + 18 = 74. Final answer: Vincent now knows 74 songs.",
+        "DL":2,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Alyssa has 30 books in her library. She bought several books at a yard sale over the weekend. She now has 88 books in her library. How many books did she buy at the yard sale ?",
+        "F":"88-30",
+        "A":"58",
+        "R":"Key facts: Alyssa originally has 30 books. After buying some at the yard sale, she has a total of 88 books. Calculation: To find the number of books bought, subtract the original number of books from the total number now owned. That is 88 - 30 = 58. Therefore, Alyssa bought 58 books at the yard sale.",
+        "DL":2,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"There were eight red roses and two white roses in the vase. Melanie cut some more roses from her flower garden. There are now fourteen red roses in the vase. How many red roses did she cut ?",
+        "F":"14-8",
+        "A":"6",
+        "R":"Key facts: Initially, there were 8 red roses in the vase. After Melanie added more, there are now 14 red roses. We need to find out how many red roses Melanie cut. Calculation: To find the number of red roses added, subtract the initial number of red roses from the current total: 14 - 8 = 6. Therefore, Melanie cut 6 red roses.",
+        "DL":2,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Garrett went shopping for snack supplies and bought 6 oatmeal raisin granola bars and 8 peanut granola bars. How many granola bars did he buy in all?",
+        "F":"6+8",
+        "A":"14",
+        "R":"Key facts: Garrett bought 6 oatmeal raisin granola bars and 8 peanut granola bars. To find the total number of granola bars he bought, we add these two quantities together. Calculation: 6 + 8 = 14. Therefore, Garrett bought a total of 14 granola bars.",
+        "DL":2,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Bianca spent twenty-two minutes drawing at school and nineteen minutes drawing at home. How many minutes total did she spend drawing?",
+        "F":"22+19",
+        "A":"41",
+        "R":"Key facts: Bianca spent 22 minutes drawing at school and 19 minutes drawing at home. Calculation: To find the total time spent drawing, add the two times together: 22 + 19 = 41 minutes. Therefore, Bianca spent a total of 41 minutes drawing.",
+        "DL":2,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now?",
+        "F":"45+9-19",
+        "A":"35",
+        "R":"Key facts: Cody initially has 45 dollars. He receives 9 more dollars as a birthday gift, increasing his total money. Then, he spends 19 dollars on a new game, which decreases his total money. Calculation: Start with 45 dollars, add 9 dollars to get 54 dollars, then subtract 19 dollars spent on the game. 45 + 9 = 54, 54 - 19 = 35. Final answer: Cody now has 35 dollars.",
+        "DL":3,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"There were 86 trees in a park. 15 of them died and another 23 of them were cut. How many trees were still left?",
+        "F":"86-15-23",
+        "A":"48",
+        "R":"Key facts: There were initially 86 trees in the park. Out of these, 15 trees died, and 23 trees were cut down. Calculation: To find the number of trees still left, subtract the dead trees and the cut trees from the total number of trees: 86 - 15 = 71, then 71 - 23 = 48. Therefore, the number of trees still left in the park is 48.",
+        "DL":3,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Robin had 30 songs on her mp3 player. If she deleted 8 old songs from it and then added 10 new songs, how many songs does she have on her mp3 player?",
+        "F":"30-8+10",
+        "A":"32",
+        "R":"Key facts: Robin initially had 30 songs on her mp3 player. She deleted 8 old songs, reducing the total number of songs. Then, she added 10 new songs to the mp3 player. Calculation: Starting with 30 songs, subtract the 8 deleted songs: 30 - 8 = 22 songs remain. Next, add the 10 new songs: 22 + 10 = 32 songs. Therefore, after these changes, Robin has 32 songs on her mp3 player.",
+        "DL":3,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"After the aviary was the zoo's swamp area. Penny counted a total of 55 tree frogs, 10 poison frogs and 13 wood frogs. How many frogs was Penny able to count?",
+        "F":"55+10+13",
+        "A":"78",
+        "R":"Key facts: Penny counted 55 tree frogs, 10 poison frogs, and 13 wood frogs. To find the total number of frogs Penny counted, we need to add these numbers together. Calculation: 55 + 10 + 13 = 78. Therefore, Penny was able to count a total of 78 frogs.",
+        "DL":3,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Charlie and his father, an engineer, decided to build a treehouse in their backyard. In order to start constructing the house, Charlie and his father needed to gather some wood from the forest. If they initially have 15 extra planks of wood in the house and Charlie and his father got 10 planks of wood each, how many pieces of wood do they have in total?",
+        "F":"15+10+10",
+        "A":"35",
+        "R":"Key facts: Charlie and his father initially have 15 extra planks of wood in the house. Charlie gets 10 planks of wood. His father also gets 10 planks of wood. Calculation: To find the total pieces of wood, add the initial planks to the planks gathered by Charlie and his father: 15 + 10 + 10 = 35. Therefore, the total number of pieces of wood they have is 35.",
+        "DL":3,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Annie's friends wanted to make sure that there will be enough utensils to go around. If they already have 10 spoons and 10 forks and they bought 30 more for forks and 20 more spoons, how many utensils do they have available for the party?",
+        "F":"10+10+30+20",
+        "A":"70",
+        "R":"Key facts: They initially have 10 spoons and 10 forks. They then buy an additional 30 forks and 20 spoons. Calculation: Add the initial and purchased utensils together: 10 (initial spoons) + 10 (initial forks) + 30 (additional forks) + 20 (additional spoons) = 70 utensils in total. Final answer: There are 70 utensils available for the party.",
+        "DL":3,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Using the $834.00 left from buying the shoes, he went to a fashion store to buy a dress for his sister. If the dress costs $129.00, how much money does he have left with him?",
+        "F":"834-129",
+        "A":"705",
+        "R":"Key facts: He has $834.00 left after buying shoes. The dress for his sister costs $129.00. Calculation: To find out how much money he has left after buying the dress, subtract the cost of the dress from the $834.00. 834 - 129 = 705. Therefore, he has $705 left with him after buying the dress.",
+        "DL":4,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"A DVD book holds 126 DVDs. There are 81 DVDs already in the book. How many more DVDs can be put in the book?",
+        "F":"126-81",
+        "A":"45",
+        "R":"Key facts: The DVD book has a total capacity of 126 DVDs. Currently, there are 81 DVDs in the book. Calculation: To find out how many more DVDs can be added, subtract the number of DVDs already in the book from the total capacity: 126 - 81 = 45. Therefore, 45 more DVDs can be put in the book.",
+        "DL":4,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Connie has 41 red markers and 64 blue markers. How many markers does she have altogether?",
+        "F":"41+64",
+        "A":"105",
+        "R":"Key facts: Connie has 41 red markers and 64 blue markers. To find the total number of markers, we add the number of red markers to the number of blue markers. Calculation: 41 + 64 = 105. Therefore, Connie has 105 markers altogether.",
+        "DL":4,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Gino has 63 popsicle sticks. I have 50 popsicle sticks. What is the sum of our popsicle sticks?",
+        "F":"63+50",
+        "A":"113",
+        "R":"Key facts: Gino has 63 popsicle sticks and I have 50 popsicle sticks. The problem asks for the total number of popsicle sticks combined. Calculation: To find the sum, add Gino's popsicle sticks and my popsicle sticks: 63 + 50 = 113. Therefore, the total number of popsicle sticks is 113.",
+        "DL":4,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"It took all of the workers one year to finish the Animus Tower and it was indeed the brightest and tallest structure that can be seen at Animapolis' skyline. If the first half of the building has 145 stories and the second half has 255 stories. How many stories do the Animus Tower has?",
+        "F":"145+255",
+        "A":"400",
+        "R":"Key facts: The Animus Tower is divided into two halves with 145 stories in the first half and 255 stories in the second half. Calculation: To find the total number of stories, add the stories in the first half to the stories in the second half: 145 + 255 = 400. Therefore, the Animus Tower has a total of 400 stories.",
+        "DL":4,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"After the framework was finished, they asked 239 monkeys and 622 termites to finish the rest of the building. How many workers finished the rest of the construction?",
+        "F":"239+622",
+        "A":"861",
+        "R":"Key facts: There are 239 monkeys and 622 termites asked to finish the rest of the construction. Calculation: To find the total number of workers finishing the rest of the construction, add the number of monkeys and termites together: 239 + 622 = 861. Final answer: 861 workers finished the rest of the construction.",
+        "DL":4,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"There are 43 dogs, 72 fish, and 34 cats at my farm. How many pets do I have at my farm?",
+        "F":"43+72+34",
+        "A":"149",
+        "R":"Key facts: There are 43 dogs, 72 fish, and 34 cats at the farm. Calculation: To find the total number of pets, add the number of dogs, fish, and cats together: 43 + 72 + 34 = 149. Therefore, the total number of pets at the farm is 149.",
+        "DL":5,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Sam is 175 cm tall. John is 20 cm taller than Sam. Who is taller?",
+        "F":"175 cm(Sam) < 175+20",
+        "A":"195 cm(John)",
+        "R":"Key facts: Sam's height is 175 cm. John is 20 cm taller than Sam. Calculation: To find John's height, add 20 cm to Sam's height: 175 cm + 20 cm = 195 cm. Therefore, John is 195 cm tall and taller than Sam. Final answer: 195 cm (John).",
+        "DL":5,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Cindy has 105 stickers. She uses 23 stickers. She buys 45 more stickers. How many stickers does Cindy have now?",
+        "F":"105-23+45",
+        "A":"127",
+        "R":"Key facts: Cindy starts with 105 stickers, uses 23 stickers, and then buys 45 more stickers. Calculation: First, subtract the stickers used from the initial amount: 105 - 23 = 82 stickers left. Then, add the stickers bought: 82 + 45 = 127 stickers. Final answer: Cindy now has 127 stickers.",
+        "DL":5,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"For the first main dish, they were asked to cook steak. If the third and second team cooked 240 plates of steak. And the first team cooked 75 plates less than what the second and third team made, how many steaks did they cook altogether?",
+        "F":"(240-75)+240",
+        "A":"405",
+        "R":"Key facts: The second and third teams cooked a total of 240 plates of steak. The first team cooked 75 plates less than the combined plates cooked by the second and third teams. Calculation: First, find how many plates the first team cooked by subtracting 75 from 240, which is 240 - 75 = 165 plates. Then, add the first team's plates to the second and third teams' plates to find the total: 165 + 240 = 405 plates. Final answer: Altogether, they cooked 405 plates of steak.",
+        "DL":5,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Kevin and his family just moved to a new neighborhood so they are holding a party to be able to meet their new neighbors. For the party, they prepared a few snacks for everyone. If his sister prepared 25 mini cupcakes and his mother prepared 30, how many did his grandmother prepare if they have a total of 100 cupcakes?",
+        "F":"100-(25+30)",
+        "A":45,
+        "R":"Key facts: The total number of cupcakes prepared is 100. Kevin's sister prepared 25 mini cupcakes. Kevin's mother prepared 30 mini cupcakes. Calculation: To find the number of cupcakes prepared by Kevin's grandmother, subtract the cupcakes prepared by the sister and mother from the total cupcakes. First, add the cupcakes prepared by the sister and mother: 25 + 30 = 55. Then, subtract this sum from the total cupcakes: 100 - 55 = 45. Final answer: Kevin's grandmother prepared 45 mini cupcakes.",
+        "DL":5,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"It is Easter time and the kids in the neighborhood of Easterville are very excited about the annual Easter egg hunt. The parents have decided to hide the eggs in a lot of different places. They hid 55 eggs around the club house, 33 eggs around the village park and 22 eggs in the town hall garden. How many eggs were hidden in total?",
+        "F":"55+33+22",
+        "A":110,
+        "R":"Key facts: There are 55 eggs hidden around the club house, 33 eggs hidden around the village park, and 22 eggs hidden in the town hall garden. Calculation: To find the total number of eggs hidden, add the eggs from all locations: 55 + 33 + 22 = 110. Final answer: A total of 110 eggs were hidden.",
+        "DL":5,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"The Hawks scored three touchdowns worth 7 points each. How many points do they have?",
+        "F":"7*3",
+        "A":"21",
+        "R":"Key facts: Each touchdown is worth 7 points, and the Hawks scored 3 touchdowns. Calculation: Multiply the points per touchdown by the number of touchdowns: 7 * 3 = 21. Final answer: The Hawks have 21 points.",
+        "DL":6,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Tyler had 15 dogs. Each dog had five puppies. How many puppies does Tyler now have?",
+        "F":"15*5",
+        "A":"75",
+        "R":"Key facts: Tyler has 15 dogs, and each dog has 5 puppies. Calculation: To find the total number of puppies, multiply the number of dogs by the number of puppies per dog: 15 * 5 = 75. Therefore, Tyler now has 75 puppies.",
+        "DL":6,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"An airline lets each passenger take eight pieces of luggage. If there were four people flying, how many bags could they take?",
+        "F":"8*4",
+        "A":"32",
+        "R":"Key facts: Each passenger is allowed to take 8 pieces of luggage. There are 4 passengers flying. Calculation: Multiply the number of pieces of luggage per passenger by the number of passengers to get the total pieces of luggage allowed: 8 * 4 = 32. Therefore, the four passengers can take a total of 32 bags.",
+        "DL":6,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Lukas averages 12 points per game in basketball. How many points would he score in 5 games?",
+        "F":"12*5",
+        "A":"60",
+        "R":"Key facts: Lukas scores an average of 12 points per game. We need to find the total points scored in 5 games. Calculation: Multiply the average points per game by the number of games, 12 * 5 = 60. Therefore, Lukas would score 60 points in 5 games.",
+        "DL":6,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"John is building a tree house to serve as his hideout whenever he wanted to spend some time alone with himself. The first thing he did is to gather some materials. For the pillars, he needs two sets of wood with different lengths. If the first set of wood is 4 feet long and the second set is 5 times longer than the first set, how long is the second set of wood?",
+        "F":"4*5",
+        "A":"20",
+        "R":"Key facts: The first set of wood is 4 feet long. The second set of wood is 5 times longer than the first set. Calculation: Multiply the length of the first set by 5 to find the length of the second set. 4 feet * 5 = 20 feet. Therefore, the second set of wood is 20 feet long.",
+        "DL":6,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"She also estimated the number of candies that she will receive from each block. If she will receive around 7 pieces of candies from every house, and there are 5 houses in a block, how many candies will she receive from each block?",
+        "F":"7*5",
+        "A":"35",
+        "R":"Key facts: She receives 7 pieces of candies from each house. There are 5 houses in each block. Calculation: To find the total number of candies from each block, multiply the number of candies per house by the number of houses: 7 candies\/house * 5 houses = 35 candies. Final answer: She will receive 35 candies from each block.",
+        "DL":6,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Martha bought 18 small cakes. She has 3 children. She would like to divide the cakes among her children so that each child gets the same amount. How many cakes would each child get?",
+        "F":"18/3",
+        "A":6,
+        "R":"Key facts: Martha has 18 small cakes and 3 children. She wants to divide the cakes equally among her children. Calculation: To find the number of cakes each child gets, divide the total number of cakes by the number of children. That is 18 divided by 3, which equals 6. Therefore, each child will get 6 cakes.",
+        "DL":7,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Mrs. Hilt has 50 cents. A pencil costs 5 cents. How many pencils can she buy with the money she has?",
+        "F":"50/5",
+        "A":"10",
+        "R":"Key facts: Mrs. Hilt has 50 cents in total and each pencil costs 5 cents. Calculation: To find out how many pencils she can buy, divide the total amount of money she has by the cost of one pencil. 50 cents / 5 cents per pencil = 10 pencils. Therefore, Mrs. Hilt can buy 10 pencils with 50 cents.",
+        "DL":7,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"The roller coaster at the state fair costs five tickets per ride. If you had ten tickets, how many times could you ride it?",
+        "F":"10/5",
+        "A":"2",
+        "R":"Key facts: Each roller coaster ride costs 5 tickets. You have a total of 10 tickets. Calculation: To find out how many times you can ride, divide the total tickets you have by the tickets required per ride. So, 10 tickets / 5 tickets per ride = 2 rides. Final answer: You can ride the roller coaster 2 times.",
+        "DL":7,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"58 children are taking a bus to the zoo. They sit 2 children in every seat. How many seats will the children need in all?",
+        "F":"58/2",
+        "A":"29",
+        "R":"Key facts: There are 58 children, and each seat can hold 2 children. Calculation: To find the total number of seats needed, divide the total number of children by the number of children per seat: 58 / 2 = 29. Therefore, the children will need 29 seats in all.",
+        "DL":7,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Lexie has a lot of art materials. She needs to organize all these materials into containers. She counted her crayons and found out that she has 80 crayons which she will place in crayon boxes. Every crayon box can contain 8 crayons. How many crayon boxes does she need?",
+        "F":"80/8",
+        "A":"10",
+        "R":"Key facts: Lexie has 80 crayons and each crayon box holds 8 crayons. To find out how many crayon boxes are needed, divide the total number of crayons by the number of crayons each box can hold. Calculation: 80 crayons / 8 crayons per box = 10 boxes. Therefore, Lexie needs 10 crayon boxes.",
+        "DL":7,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Susie and her sister gathered all 98 of their teddy bears and placed them on the shelves in their bedroom. If every shelf can carry a maximum of 7 teddy bears, how many shelves will be filled?",
+        "F":"98/7",
+        "A":"14",
+        "R":"Key facts: Susie and her sister have a total of 98 teddy bears. Each shelf can hold a maximum of 7 teddy bears. Calculation: To find out how many shelves are needed, divide the total number of teddy bears by the capacity of each shelf: 98 / 7 = 14. Therefore, 14 shelves will be filled with teddy bears.",
+        "DL":7,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Mrs. Hilt bought 6 hot dogs. Each hot dog cost 50 cents. How much money did she pay for all of the hot dogs?",
+        "F":"6*50",
+        "A":"300",
+        "R":"Key facts: Mrs. Hilt bought 6 hot dogs, and each hot dog costs 50 cents. To find the total cost, multiply the number of hot dogs by the cost of each hot dog. Calculation: 6 hot dogs * 50 cents = 300 cents. Since 100 cents equal 1 dollar, 300 cents equals 3 dollars. Therefore, Mrs. Hilt paid 300 cents or 3 dollars in total for all the hot dogs.",
+        "DL":8,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"The Razorback t-shirt Shop sells their t-shirts for $16. Last week they sold 45 t-shirts. How much money did they make last week?",
+        "F":"16*45",
+        "A":"720",
+        "R":"Key facts: The price of one t-shirt is $16, and the number of t-shirts sold last week is 45. Calculation: Multiply the price per t-shirt by the number of t-shirts sold to find the total money made. 16 * 45 = 720. Final answer: They made $720 last week.",
+        "DL":8,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"The Spurs basketball team has 22 players. Each player has eleven basketballs. How many basketballs do they have in all?",
+        "F":"22*11",
+        "A":"242",
+        "R":"Key facts: There are 22 players on the Spurs basketball team. Each player has 11 basketballs. Calculation: To find the total number of basketballs, multiply the number of players by the number of basketballs each player has. 22 players * 11 basketballs\/player = 242 basketballs in total. Final answer: The Spurs basketball team has 242 basketballs in all.",
+        "DL":8,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"We ordered 21 pizzas. Each pizza has 8 slices. How many slices of pizza are there altogether?",
+        "F":"21*8",
+        "A":"168",
+        "R":"Key facts: There are 21 pizzas ordered, and each pizza is divided into 8 slices. To find the total number of slices, multiply the number of pizzas by the number of slices per pizza. Calculation: 21 pizzas * 8 slices per pizza = 168 slices. Therefore, there are 168 slices of pizza altogether.",
+        "DL":8,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"It is harvest season in the country. Lewis, whose family owns a fruit farm, is busy overseeing their farmers while they are harvesting the fruits. His day starts by going to the apple orchard. The farmers reported that they harvest 45 sacks of apples from each of the 8 sections of the orchard daily. How many apples are harvested every day?",
+        "F":"45*8",
+        "A":"360",
+        "R":"Key facts: The orchard is divided into 8 sections. Each section yields 45 sacks of apples daily. To find the total apples harvested daily, multiply the number of sacks per section by the total sections. Calculation: 45 sacks\/section * 8 sections = 360 sacks. Therefore, 360 sacks of apples are harvested every day.",
+        "DL":8,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"He also had 8 aquariums for saltwater animals. Each aquarium has 64 animals in it. How many saltwater animals does Tyler have?",
+        "F":"8*64",
+        "A":"512",
+        "R":"Key facts: Tyler has 8 aquariums, each containing 64 saltwater animals. To find the total number of saltwater animals, multiply the number of aquariums by the number of animals per aquarium. Calculation: 8 aquariums * 64 animals each = 512 animals in total. Therefore, Tyler has 512 saltwater animals.",
+        "DL":8,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Tom has 105 marbles. If he puts 15 marbles into each bag, how many bags does he fill?",
+        "F":"105 / 15",
+        "A":7,
+        "R":"Key facts: Tom has 105 marbles and puts 15 marbles in each bag. Calculation: Divide 105 by 15: 105 / 15 = 7. Tom fills 7 bags.",
+        "DL":9,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"A bakery made 180 cupcakes. They place 36 cupcakes on each tray. How many trays do they need?",
+        "F":"180 / 36",
+        "A":5,
+        "R":"Key facts: There are 180 cupcakes and 36 cupcakes fit on one tray. Calculation: Divide 180 by 36: 180 / 36 = 5. The bakery needs 5 trays.",
+        "DL":9,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Marcia spent 300 minutes working on her science project. How many hours did she spend on her science project?",
+        "F":"300/60",
+        "A":"5",
+        "R":"Key facts: Marcia worked for 300 minutes. We know that 1 hour equals 60 minutes. Calculation: To convert minutes to hours, divide the total minutes by 60. Thus, 300 minutes / 60 = 5 hours. Final answer: Marcia spent 5 hours on her science project.",
+        "DL":9,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"My car gets 20 miles per gallon of gas. If Grandma's house is 100 miles away, how many gallons of gas would it take to get to her house?",
+        "F":"100/20",
+        "A":"5",
+        "R":"Key facts: The car's fuel efficiency is 20 miles per gallon, and the distance to Grandma's house is 100 miles. Calculation: To find out how many gallons are needed, divide the total distance by the miles per gallon: 100 miles / 20 miles per gallon = 5 gallons. Therefore, it would take 5 gallons of gas to get to Grandma's house.",
+        "DL":9,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Marian also baked oatmeal cookies for her classmates. If she can place 12 cookies on a tray at a time, how many trays will she need to prepare 276 oatmeal cookies at a time?",
+        "F":"276/12",
+        "A":"23",
+        "R":"Key facts: Marian needs to bake 276 oatmeal cookies, and she can place 12 cookies on each tray. Calculation: To find the number of trays needed, divide the total number of cookies by the number of cookies per tray: 276 / 12 = 23. Therefore, Marian will need 23 trays to prepare all 276 cookies at a time.",
+        "DL":9,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Marian's friends were coming over that afternoon so she made 480 bite-sized pretzels. If one serving is equal to 12 pretzels, how many servings of bite-sized pretzels was Marian able to prepare?",
+        "F":"480/12",
+        "A":"40",
+        "R":"Key facts: Marian made a total of 480 bite-sized pretzels. Each serving consists of 12 pretzels. Calculation: To find the number of servings, divide the total pretzels by the number of pretzels per serving: 480 / 12 = 40. Therefore, Marian was able to prepare 40 servings of bite-sized pretzels.",
+        "DL":9,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"Ron and Chanarong had breakfast at a cafe. Muffins cost $2 each, and fruit cups cost $2 each. Ron had 1 muffin and 2 fruit cups. Chanarong had 1 muffin and 2 fruit cups. How much did their breakfast cost?",
+        "F":"(2*1)+(2*2)+(2*1)+(2*2)",
+        "A":"12",
+        "R":"Key facts: Muffins cost $2 each, fruit cups cost $2 each. Ron had 1 muffin and 2 fruit cups. Chanarong had 1 muffin and 2 fruit cups. Calculation: Ron's total = (2 * 1) + (2 * 2) = 2 + 4 = 6. Chanarong's total = (2 * 1) + (2 * 2) = 2 + 4 = 6. Total cost = 6 + 6 = 12. Therefore, their breakfast cost $12.",
+        "DL":10,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Karen wants to buy a pen that costs 75 cents. She has 2 quarters and 3 dimes. Does she have enough money?",
+        "F":"2*25+3*10",
+        "A":"80 cents > 75 cents",
+        "R":"Key facts: Karen wants to buy a pen costing 75 cents. She has 2 quarters and 3 dimes. Each quarter is worth 25 cents and each dime is worth 10 cents. Calculation: Total money Karen has = (2 * 25) + (3 * 10) = 50 + 30 = 80 cents. Since 80 cents is greater than 75 cents, Karen has enough money to buy the pen. Final answer: 80 cents > 75 cents.",
+        "DL":10,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"A group of nine friends went into a restaurant. The chef already had two chicken wings cooked but cooked twenty-five more for the group. If they each got the same amount, how many would each person get?",
+        "F":"(2+25)/9",
+        "A":"3",
+        "R":"Key facts: There are 9 friends in the group. The chef had 2 chicken wings already cooked and cooked 25 more wings, making a total of 2 + 25 = 27 wings. Calculation: To find out how many wings each friend gets if divided equally, divide the total wings by the number of friends: 27 / 9 = 3. Therefore, each friend would get 3 chicken wings.",
+        "DL":10,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Mrs. Hilt baked pies last weekend for a holiday dinner. She baked 16 pecan pies and 14 apples pies. If she wants to arrange all of the pies in rows of 5 pies each, how many rows will she have?",
+        "F":"(16+14)/5",
+        "A":"6",
+        "R":"Key facts: Mrs. Hilt baked 16 pecan pies and 14 apple pies, making a total number of pies 16 + 14 = 30. She wants to arrange these pies in rows of 5 pies each. Calculation: To find the number of rows, divide the total number of pies by the number of pies per row: 30 \/ 5 = 6. Therefore, Mrs. Hilt will have 6 rows of pies.",
+        "DL":10,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"A waiter had sixty-two customers in his section. If seventeen of them left and the rest of his tables had nine people at each table, how many tables did he have?",
+        "F":"(62-17)/9",
+        "A":"5",
+        "R":"Key facts: The waiter started with 62 customers. 17 customers left. Each remaining table had 9 people. Calculation: First, find how many customers remained: 62 - 17 = 45. Then, divide the remaining customers by the number of people per table: 45 \/ 9 = 5. Therefore, the waiter had 5 tables.",
+        "DL":10,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"While playing at the arcade, Kaleb won eight tickets playing 'whack a mole' and seven tickets playing 'skee ball'. If he was trying to buy candy that cost five tickets a piece, how many could he buy?",
+        "F":"(8+7)/5",
+        "A":"3",
+        "R":"Key facts: Kaleb won 8 tickets from 'whack a mole' and 7 tickets from 'skee ball'. Candy costs 5 tickets each. Calculation: Total tickets = 8 + 7 = 15. Number of candies Kaleb can buy = total tickets divided by cost per candy = 15 \/ 5 = 3. Final answer: Kaleb can buy 3 pieces of candy.",
+        "DL":10,
+        "FKGL_cat":"high"
+    },
+    {
+        "Q":"David has 7 boxes of stuffed toy dogs. Each box has four dogs in it. How many legs are there in all?",
+        "F":"(7*4)*4",
+        "A":"112",
+        "R":"Key facts: David has 7 boxes, each box contains 4 stuffed toy dogs, and each dog has 4 legs. Calculation: First, find the total number of dogs by multiplying the number of boxes by the number of dogs per box: 7 * 4 = 28 dogs. Then, multiply the total number of dogs by the number of legs per dog: 28 * 4 = 112 legs. Therefore, the total number of legs is 112.",
+        "DL":11,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"I have 3 hundreds, 8 tens, and 3 ones. What number am I?",
+        "F":"(3*100)+(8*10)+(3*1)",
+        "A":"383",
+        "R":"Key facts: The number is composed of 3 hundreds, 8 tens, and 3 ones. Calculation: Multiply 3 by 100 to get 300, multiply 8 by 10 to get 80, and multiply 3 by 1 to get 3. Then, add these results together: 300 + 80 + 3 = 383. Therefore, the number is 383.",
+        "DL":11,
+        "FKGL_cat":"low"
+    },
+    {
+        "Q":"Amy was planting vegetables in her garden. She started with one hundred one seeds and planted forty-seven of them in the big garden and in each of her small gardens put six seeds each. How many small gardens did Amy have?",
+        "F":"(101-47)/6",
+        "A":"9",
+        "R":"Key facts: Amy started with 101 seeds. She planted 47 seeds in the big garden. Each small garden received 6 seeds. Calculation: First, subtract the seeds used in the big garden from the total seeds to find how many seeds remain for the small gardens: 101 - 47 = 54 seeds. Then, divide the remaining seeds by 6 (seeds per small garden) to find the number of small gardens: 54 / 6 = 9. Final answer: Amy had 9 small gardens.",
+        "DL":11,
+        "FKGL_cat":"medium"
+    },
+    {
+        "Q":"Paige had one hundred ten homework problems. She finished forty-seven of them but still had seven pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?",
+        "F":"(110-47)/7",
+        "A":"9",
+        "R":"Key facts: Paige started with 110 homework problems, finished 47 problems, and has 7 pages left to do. Each page has the same number of problems. Calculation: First, find how many problems remain by subtracting the finished problems from the total: 110 - 47 = 63 problems left. Since these 63 problems are spread evenly across 7 pages, divide 63 by 7 to find the number of problems per page: 63 / 7 = 9 problems per page. Final answer: There are 9 problems on each page.",
+        "DL":11,
+        "FKGL_cat":"medium"
+    }
+]

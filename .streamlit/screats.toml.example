@@ -1,0 +1,48 @@
+# =============================================================================
+# Streamlit Secrets Configuration Template
+# =============================================================================
+# 
+# Instructions:
+# 1. Copy this file to 'secrets.toml' in the same directory
+# 2. Replace placeholder values with your actual credentials
+# 3. NEVER commit secrets.toml to version control
+#
+# For local development:
+#   - File location: .streamlit/secrets.toml
+#
+# For Streamlit Cloud:
+#   - Add secrets in App Settings → Secrets
+#   - Copy the content below and replace with real values
+# =============================================================================
+
+# OpenAI API Key
+# Get from: https://platform.openai.com/api-keys
+OPENAI_API_KEY = "sk-proj-your-key-here"
+
+# Optional Configuration
+# Uncomment and modify as needed:
+
+# MODEL_NAME = "gpt-4-turbo"
+# MAX_TOKENS = 1000
+# TEMPERATURE = 0.7
+```
+
+### 2. Update `.gitignore`
+
+Make sure this is in your `.gitignore`:
+```
+# Secrets - NEVER commit these!
+.streamlit/secrets.toml
+*.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Data
+Session Data/
+*.log
+
+# OS
+.DS_Store

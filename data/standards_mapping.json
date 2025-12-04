@@ -1,0 +1,123 @@
+{
+    "1":{
+        "Extended Standards":"Use addition and subtraction with one digit to solve one-step word problems",
+        "Addition":"Y",
+        "Subtraction":"Y",
+        "Multiplication":"N",
+        "Division":"N",
+        "One Digit":"Y",
+        "Two Digit":"N",
+        "Three Digit":"N",
+        "# of Steps":1
+    },
+    "2":{
+        "Extended Standards":"Use addition and subtraction with at least one two digits to solve one-step word problems",
+        "Addition":"Y",
+        "Subtraction":"Y",
+        "Multiplication":"N",
+        "Division":"N",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"N",
+        "# of Steps":1
+    },
+    "3":{
+        "Extended Standards":"Use addition and subtraction within 100 with at least one  two digits to solve  at least two-step word problems.",
+        "Addition":"Y",
+        "Subtraction":"Y",
+        "Multiplication":"N",
+        "Division":"N",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"N",
+        "# of Steps":">=2"
+    },
+    "4":{
+        "Extended Standards":"Use addition and subtraction with at least one three digit to solve one-step word problems",
+        "Addition":"Y",
+        "Subtraction":"Y",
+        "Multiplication":"N",
+        "Division":"N",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"Y",
+        "# of Steps":1
+    },
+    "5":{
+        "Extended Standards":"Use addition and subtraction with at least one three digit to solve two-step word problems",
+        "Addition":"Y",
+        "Subtraction":"Y",
+        "Multiplication":"N",
+        "Division":"N",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"Y",
+        "# of Steps":">=2"
+    },
+    "6":{
+        "Extended Standards":"Use multiplication with two-digit and one digit to solve one-step word problems",
+        "Addition":"N",
+        "Subtraction":"N",
+        "Multiplication":"Y",
+        "Division":"N",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"N",
+        "# of Steps":1
+    },
+    "7":{
+        "Extended Standards":"Use division with two-digit and one-digit to solve one-step word problems",
+        "Addition":"N",
+        "Subtraction":"N",
+        "Multiplication":"N",
+        "Division":"Y",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"N",
+        "# of Steps":1
+    },
+    "8":{
+        "Extended Standards":"Use multiplication with at least one three-digit to solve one-step word problems",
+        "Addition":"N",
+        "Subtraction":"N",
+        "Multiplication":"Y",
+        "Division":"N",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"Y",
+        "# of Steps":1
+    },
+    "9":{
+        "Extended Standards":"Use division with at least one three-digit to solve one-step word problems",
+        "Addition":"N",
+        "Subtraction":"N",
+        "Multiplication":"N",
+        "Division":"Y",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"Y",
+        "# of Steps":1
+    },
+    "10":{
+        "Extended Standards":"Use  four operations with less than three-digit numbers to solve two-step word problems",
+        "Addition":"Y",
+        "Subtraction":"Y",
+        "Multiplication":"Y",
+        "Division":"Y",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"N",
+        "# of Steps":">=2"
+    },
+    "11":{
+        "Extended Standards":"Use four operations with at least one three-digit numbers to solve at least two-step word problems.",
+        "Addition":"Y",
+        "Subtraction":"Y",
+        "Multiplication":"Y",
+        "Division":"Y",
+        "One Digit":"Y",
+        "Two Digit":"Y",
+        "Three Digit":"Y",
+        "# of Steps":">=2"
+    }
+}
