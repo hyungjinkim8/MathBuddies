@@ -20,7 +20,7 @@ Visit the live app: **mathbuddies.streamlit.app**
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/hyungjinkim8/math-practice-app.git
+   git clone https://github.com/hyungjinkim8/MathBuddies.git
    cd math-practice-app
 ```
 
@@ -83,10 +83,6 @@ OPENAI_API_KEY = "your-openai-api-key"
 - `OPENAI_API_KEY`: Your OpenAI API key (required)
 
 ## Development
-
-### Running in Google Colab
-
-See the included Colab notebook for development setup.
 
 ## License
 
