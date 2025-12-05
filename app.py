@@ -164,7 +164,7 @@ if 'mwp_session' not in st.session_state:
         st.session_state.mwp_session = MWPSession(
             api_key=api_key,
             user_id=st.session_state.username,
-            output_dir=os.getcwd() + "/session_data"
+            output_dir=SESSION_DATA_DIR
         )
 
 if 'submitted' not in st.session_state:
@@ -229,8 +229,8 @@ def generate_problems_background():
             "api_key": st.session_state.mwp_session.api_key,
             "curr_dl": st.session_state.mwp_session.curr_dl,
             "curr_text_l": st.session_state.mwp_session.curr_text_l,
-            "ex_dat_path": "/data/example_dat.json",
-            "standards_path": "/data/standards_mapping.json",
+            "ex_dat_path": f"{DATA_DIR}/example_dat.json",
+            "standards_path": f"{DATA_DIR}/standards_mapping.json",
             "existing_queue": st.session_state.problem_queue
         }
         session_file = st.session_state.mwp_session.user_dir / "bg_session.json"

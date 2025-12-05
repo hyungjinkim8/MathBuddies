@@ -56,7 +56,7 @@ Visit the live app: **mathbuddies.streamlit.app**
 
 ## Project Structure
 ```
-math-practice-app/
+MathBuddies/
 ├── .streamlit/
 │   ├── config.toml           # Streamlit configuration
 │   └── secrets.toml.example  # Secrets template
