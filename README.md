@@ -58,17 +58,17 @@ Visit the live app: **mathbuddies.streamlit.app**
 ```
 MathBuddies/
 ├── .streamlit/
-│   ├── config.toml           # Streamlit configuration
-│   └── secrets.toml.example  # Secrets template
+│   ├── config.toml            # Streamlit configuration
+│   └── secrets.toml.example   # Secrets template
 ├── data/
-│   ├── example_dat.json      # Example problems
+│   ├── example_dat.json       # Example problems
 │   ├── standards_mapping.json # Educational standards
-│   └── data_mapped.json      # Problem mapping
-├── app.py                    # Main Streamlit application
-├── mwp_classes.py           # Core logic classes
-├── requirements.txt         # Python dependencies
-├── .gitignore              # Git ignore rules
-└── README.md               # This file
+│   └── data_mapped.json       # Problem mapping
+├── app.py                     # Main Streamlit application
+├── mwp_classes.py             # Core logic classes
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Git ignore rules
+└── README.md                  # This file
 ```
 
 ## Configuration

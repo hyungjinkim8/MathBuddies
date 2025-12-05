@@ -51,7 +51,7 @@ def app_header():
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
-SESSION_DATA_DIR = os.path.join(BASE_DIR, "session_data")
+#SESSION_DATA_DIR = os.path.join(BASE_DIR, "session_data")
 
 from mwp_classes import PromptGenerator, ProblemEvaluator, MWPGenerator, MWPSession
 
@@ -164,7 +164,7 @@ if 'mwp_session' not in st.session_state:
         st.session_state.mwp_session = MWPSession(
             api_key=api_key,
             user_id=st.session_state.username,
-            output_dir=SESSION_DATA_DIR
+            output_dir=None
         )
 
 if 'submitted' not in st.session_state:
