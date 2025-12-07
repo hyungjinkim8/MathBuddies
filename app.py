@@ -115,8 +115,8 @@ def ensure_login():
         <h3 style="text-align:center; color:#FF7B00;">🔐 Login</h3>
     """, unsafe_allow_html=True)
 
-    username = st.text_input("Username")
-    password = st.text_input("Password", type="password")
+    username = st.text_input("Username", value = "peach")
+    password = st.text_input("Password", type="password", value = "peach3")
 
     if st.button("➡️ Start Practicing!", use_container_width=True):
         if username in USER_CREDENTIALS and USER_CREDENTIALS[username] == password:
