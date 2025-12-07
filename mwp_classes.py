@@ -618,18 +618,26 @@ class ProblemEvaluator:
 
   def check_math_logic(self, gen_question, model_option):
 
-    eval_math_logic = self.evaluate_math_logic(gen_question, model_option)
-    eval_math_logic = json.loads(eval_math_logic)
+    logic_eval = False
+    while not logic_eval:
+    
+        eval_math_logic = self.evaluate_math_logic(gen_question, model_option)
+        
+        try:
+            eval_math_logic = json.loads(eval_math_logic)
+            logic_eval = True
+        except:
+            logic_eval = False
 
     if (eval_math_logic['math_correctness'] == "incorrect"):
-      match_in_f = False
+        match_in_f = False
 
     else:
-      try:
-        match_in_f = (gen_question['A'] == eval_math_logic['correct_answer']) and (eval(gen_question['F']) == gen_question['A'])
-      except Exception:
-        match_in_f = False
-        gen_question['R'] = eval_math_logic['explanation']
+        try:
+            match_in_f = (gen_question['A'] == eval_math_logic['correct_answer']) and (eval(gen_question['F']) == gen_question['A'])
+        except Exception:
+            match_in_f = False
+            gen_question['R'] = eval_math_logic['explanation']
 
     return {
         'check': 'math_logic',
@@ -782,12 +790,16 @@ class MWPGenerator:
 
     # uses different prompt generating function for different text_level
     promptgen_obj = PromptGenerator()
-    prompt = promptgen_obj.generate_prompt_template(ex_dat, standards_dat, self.target_dl, self.target_text_l, n_examples, n_items, rationale_dat)
-    problem_cand = self.generate_openai(prompt, model_option)
-    problem_cand = json.loads(problem_cand)
-
-    #gen_question = {key: problem_cand[key] for key in problem_cand if self.evaluator.evaluate_alignment(problem_cand[key], dl, text_l, self.evaluator.problem_db)}
-    #gen_question = dict(islice(gen_question.items(), 5))
+    json_eval = False
+    while not json_eval:
+        prompt = promptgen_obj.generate_prompt_template(ex_dat, standards_dat, self.target_dl, self.target_text_l, n_examples, n_items, rationale_dat)
+        problem_cand = self.generate_openai(prompt, model_option)
+        
+        try:
+            problem_cand = json.loads(problem_cand)
+            json_eval = True
+        except:
+            json_eval = False
 
     return problem_cand
 
