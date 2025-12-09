@@ -806,7 +806,7 @@ if st.session_state.exit_button:
             alt.Chart(acc_by_session)
             .mark_line(point=True, color="#cfbaf0")
             .encode(
-                x=alt.X("session_end:T", title="Session End Time"),
+                x=alt.X("session_end:T", title="Session End Time", axis=alt.Axis(format='%b %d')),
                 y=alt.Y("accuracy:Q", title="Accuracy (%)", scale=alt.Scale(domain=[0,100])),
                 tooltip=["session_end", "accuracy"]
             )
@@ -827,7 +827,7 @@ if st.session_state.exit_button:
             alt.Chart(problems_per_session)
             .mark_bar(color="#a3c4f3")
             .encode(
-                x=alt.X("session_end:T", title="Session End Time"),
+                x=alt.X("session_end:T", title="Session End Time", axis=alt.Axis(format='%b %d')),
                 y=alt.Y("num_problems:Q", title="Number of Problems"),
                 tooltip=["session_end", "num_problems"]
             )
