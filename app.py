@@ -552,6 +552,8 @@ def parse_sentence(sentence):
 
     if calculation_pos != -1 and final_answer_pos != -1:
         result['calculation'] = sentence[calculation_pos + len(calculation_marker):final_answer_pos].strip()
+    elif calculation_pos != -1 and final_answer_pos == -1:
+        result['calculation'] = sentence[calculation_pos + len(calculation_marker):].strip()
 
     if final_answer_pos != -1:
         result['final_answer'] = sentence[final_answer_pos + len(final_answer_marker):].strip()
