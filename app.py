@@ -18,9 +18,45 @@ st.set_page_config(
     layout="centered"
 )
 
+st.set_page_config(
+    page_title="Welcome to MathBuddies!",
+    page_icon="🧮",
+    layout="wide"
+)
+
 st.markdown("""
 <style>
     body { background-color: #FFF9EB; }
+
+    /* Scale up MAIN content area (the beige part with the question) */
+    section.main {
+        transform: scale(1.15);
+        transform-origin: top center;
+    }
+
+    /* Larger headers */
+    h1 { font-size: 3.2rem !important; }
+    h2 { font-size: 2.6rem !important; }
+    h3 { font-size: 2.2rem !important; }
+
+    /* Larger general text in the main area */
+    div[data-testid="stMarkdown"] p {
+        font-size: 1.35rem;
+    }
+
+    /* Larger input boxes */
+    input {
+        font-size: 1.3rem !important;
+        padding: 14px !important;
+    }
+
+    /* Larger buttons */
+    button {
+        font-size: 1.2rem !important;
+        padding: 12px 24px !important;
+    }
+
+    /* Keep your progress bar color */
     .stProgress > div > div > div {
         background-color: #FF7B00 !important;
     }
@@ -38,7 +74,7 @@ def app_header():
             <h1 style="font-size: 3rem; color:#FF7B00; margin-bottom: 0;">
                 🧮 MathBuddies!
             </h1>
-            <p style="font-size: 1.2rem; color:#444;">
+            <p style="font-size: 1.2rem; color:#444; margin-top: 0.25rem;">
                 Smart, Fun Math Practice for Awesome 3rd Graders!
             </p>
         </div>
@@ -76,9 +112,13 @@ def ensure_login():
     if st.session_state.logged_in:
         with st.sidebar:
             st.success(f"✅ Logged in as **{st.session_state.username}**")
+            if st.button("📘 Core Standards"):
+                st.session_state.show_standards = True
+                st.rerun()
             if st.button("Logout"):
                 st.session_state.logged_in = False
                 st.session_state.username = None
+                st.session_state.show_standards = False
                 st.rerun()
         return True
 
@@ -89,7 +129,7 @@ def ensure_login():
 
     st.markdown("""
     <div style="
-        background-color: #FFFFFF; padding: 20px;
+        background-color: #FFFFFF; padding: 18px;
         border-radius: 16px; border: 2px solid #FFE1B3;
         box-shadow: 0 4px 12px rgba(255,123,0,0.1);
         margin: 20px auto; max-width: 580px;
@@ -116,7 +156,7 @@ def ensure_login():
     """, unsafe_allow_html=True)
 
     username = st.text_input("Username", value = "peach")
-    password = st.text_input("Password", type="password", value = "peach3")
+    password = st.text_input("Password", value = "peach3", type="password")
 
     if st.button("➡️ Start Practicing!", use_container_width=True):
         if username in USER_CREDENTIALS and USER_CREDENTIALS[username] == password:
@@ -153,6 +193,81 @@ dat_map_json, standards_mapping_json, ex_dat = load_data()
 
 
 # ============================================================================
+# CORE STANDARDS PAGE
+# ============================================================================
+
+def show_core_standards_page():
+    st.header("📘 Core Standards by Difficulty Level")
+    st.write(
+        "Each math difficulty level corresponds to the type of word problems "
+        "shown below. Parents and teachers can use this as a quick reference "
+        "for what students are working on."
+    )
+
+    rows = []
+    for level_str in sorted(standards_mapping_json.keys(), key=lambda x: int(x)):
+        info = standards_mapping_json[level_str]
+        rows.append(
+            {
+                "level": int(level_str),
+                "text": info["Extended Standards"],
+            }
+        )
+
+    css = """
+<style>
+.standards-list {
+    margin-top: 1.5rem;
+}
+.standard-card {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    border: 1px solid #f3e2c2;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+.standard-level-pill {
+    display: inline-block;
+    background-color: #FF7B00;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+}
+.standard-text {
+    font-size: 1.05rem;
+    color: #333333;
+    margin-top: 2px;
+}
+</style>
+"""
+
+    cards_html = '<div class="standards-list">\n'
+    for row in rows:
+        cards_html += f'''
+<div class="standard-card">
+  <div class="standard-level-pill">Level {row["level"]}</div>
+  <div class="standard-text">{row["text"]}</div>
+</div>
+'''
+    cards_html += "</div>"
+
+    st.markdown(css + cards_html, unsafe_allow_html=True)
+
+    st.markdown(
+        "Use this guide to match the on-screen **Math Level** to the kinds of "
+        "problems students are seeing."
+    )
+
+    if st.button("⬅️ Back to Practice"):
+        st.session_state.show_standards = False
+        st.rerun()
+
+
+# ============================================================================
 # INITIALIZE SESSION STATE
 # ============================================================================
 
@@ -179,6 +294,10 @@ if 'total_correct' not in st.session_state:
   st.session_state.total_correct = 0
 if 'total_attempted' not in st.session_state:
   st.session_state.total_attempted = 0
+if 'session_attempted' not in st.session_state:
+  st.session_state.session_attempted = 0
+if 'session_correct' not in st.session_state:
+  st.session_state.session_correct = 0
 if 'next_button' not in st.session_state:
   st.session_state.next_button = False
 if 'exit_button' not in st.session_state:
@@ -193,6 +312,11 @@ if 'bg_process' not in st.session_state:
     st.session_state.bg_process = None
 if 'bg_log' not in st.session_state:
     st.session_state.bg_log = []
+if 'show_standards' not in st.session_state:
+    st.session_state.show_standards = False
+if st.session_state.show_standards:
+    show_core_standards_page()
+    st.stop()
 
 
 # ============================================================================
@@ -407,6 +531,33 @@ def load_question_history_for_user():
 
     return df
 
+def parse_sentence(sentence):
+
+    result = {
+        'key_facts': '',
+        'calculation': '',
+        'final_answer': ''
+    }
+
+    key_facts_marker = "Key facts:"
+    calculation_marker = "Calculation:"
+    final_answer_marker = "Final answer:"
+
+    key_facts_pos = sentence.find(key_facts_marker)
+    calculation_pos = sentence.find(calculation_marker)
+    final_answer_pos = sentence.find(final_answer_marker)
+
+    if key_facts_pos != -1 and calculation_pos != -1:
+        result['key_facts'] = sentence[key_facts_pos + len(key_facts_marker):calculation_pos].strip()
+
+    if calculation_pos != -1 and final_answer_pos != -1:
+        result['calculation'] = sentence[calculation_pos + len(calculation_marker):final_answer_pos].strip()
+
+    if final_answer_pos != -1:
+        result['final_answer'] = sentence[final_answer_pos + len(final_answer_marker):].strip()
+
+    return result
+
 
 # ============================================================================
 # GENERATE INITIAL PROBLEMS
@@ -442,35 +593,14 @@ if st.session_state.current_problem_index >= len(st.session_state.problem_queue)
 
 st.sidebar.header("📊 Your Progress")
 st.sidebar.metric("Math Difficulty Level", st.session_state.mwp_session.curr_dl)
-st.sidebar.metric("Text Complexity Level", st.session_state.mwp_session.curr_text_l)
 st.sidebar.metric("Problems Attempted", st.session_state.total_attempted)
 st.sidebar.metric("Correct Answers", st.session_state.total_correct)
 
-if st.session_state.total_attempted > 0:
-    accuracy = (st.session_state.total_correct / st.session_state.total_attempted) * 100
-    st.sidebar.metric("Accuracy", f"{accuracy:.1f}%")
-    st.sidebar.progress(accuracy / 100)
-
 st.sidebar.markdown("---")
-st.sidebar.write(f"**Current Problem:** {st.session_state.current_problem_index + 1} of {len(st.session_state.problem_queue)}")
-st.sidebar.write(f"**Total Problems for the Session:** {len(st.session_state.mwp_session.curr_session_data)}")
+st.sidebar.write(f"**Number of Problems for the Session:** {len(st.session_state.mwp_session.curr_session_data)}")
 
 if len(st.session_state.problem_queue) > 0 and len(st.session_state.problem_queue) < 5:
     generate_problems_background()
-
-# show generation status
-if st.session_state.background_generation_started and not st.session_state.generation_complete:
-    st.sidebar.info(f"🔄 Background worker processing... ({len(st.session_state.problem_queue)}/5 ready)")
-
-    with st.sidebar.expander("🔍 Generation Log"):
-        if len(st.session_state.bg_log) > 0:
-            for line in st.session_state.bg_log[-12:]:
-                st.write(line)
-        else:
-            st.write("Waiting for background worker...")
-
-elif len(st.session_state.problem_queue) >= 5:
-    st.sidebar.success("✅ All 5 problems ready!")
 
 
 # ============================================================================
@@ -482,7 +612,7 @@ current_problem = st.session_state.problem_queue[st.session_state.current_proble
 
 if not st.session_state.exit_button:
     st.header("❓ Your Challenge!")
-    st.write(current_problem['Q'])
+    st.markdown(f"<span style='font-size: 22px;'>{current_problem['Q']}</span>", unsafe_allow_html=True)
 
     st.subheader("🔢 Your Answer:")
     user_answer = st.text_input(
@@ -499,9 +629,11 @@ if not st.session_state.exit_button:
                 user_answer = int(user_answer)
                 st.session_state.submitted = True
                 st.session_state.total_attempted += 1
+                st.session_state.session_attempted += 1
                 is_correct = check_answer(st.session_state.user_answer, current_problem['A'])
                 if is_correct:
                     st.session_state.total_correct += 1
+                    st.session_state.session_correct += 1
                 st.rerun()
             except ValueError:
                 st.error("Please enter a valid number.")
@@ -523,7 +655,20 @@ if not st.session_state.exit_button:
 
         st.markdown("---")
         st.subheader("📖 Explanation")
-        st.write(current_problem['R'])
+        rat_dict = parse_sentence(current_problem['R'])
+
+        if rat_dict['calculation'] == '' and rat_dict['final_answer'] == '':
+          st.markdown(f"<span style='font-size: 22px;'>&emsp;{rat_dict['key_facts']}", unsafe_allow_html=True)
+        else:
+          st.markdown("<span style='font-size: 22px;'>**Key Fact:**", unsafe_allow_html=True)
+          st.markdown(f"<span style='font-size: 22px;'>&emsp;{rat_dict['key_facts']}", unsafe_allow_html=True)
+
+        if rat_dict['calculation'] != '':
+          st.markdown("<span style='font-size: 22px;'>**How to Solve:**", unsafe_allow_html=True)
+          st.markdown(f"<span style='font-size: 22px;'>&emsp;{rat_dict['calculation']}", unsafe_allow_html=True)
+        if rat_dict['final_answer'] != '':
+          st.markdown("<span style='font-size: 22px;'>**So...**", unsafe_allow_html=True)
+          st.markdown(f"<span style='font-size: 22px;'>&emsp;{rat_dict['final_answer']}", unsafe_allow_html=True)
         st.subheader("🧮 Helpful Formula")
         st.code(current_problem['F'])
         st.subheader("✅ Correct Answer")
@@ -561,8 +706,8 @@ if st.session_state.exit_button:
     df_hist = load_question_history_for_user()
 
     if df_hist is not None:
-        n_attempted = st.session_state.total_attempted
-        n_correct = st.session_state.total_correct
+        n_attempted = st.session_state.session_attempted
+        n_correct = st.session_state.session_correct
         last_dl = st.session_state.mwp_session.curr_dl
         accuracy = (n_correct / n_attempted * 100) if n_attempted > 0 else 0.0
 
@@ -607,8 +752,12 @@ if st.session_state.exit_button:
 
         st.write("Accuracy by Difficulty Level (Most Recent Session)")
 
+        all_levels = pd.DataFrame({"math_dl": list(range(1, 12))})
+        acc_last_full = all_levels.merge(acc_last_by_dl, on="math_dl", how="left")
+        acc_last_full["accuracy"] = acc_last_full["accuracy"].fillna(0)
+
         chart_last_dl = (
-            alt.Chart(acc_last_by_dl)
+            alt.Chart(acc_last_full)
             .mark_bar(color="#ffcfd2")
             .encode(
                 x=alt.X("math_dl:O", title="Math Difficulty Level", axis=alt.Axis(labelAngle=0)),
