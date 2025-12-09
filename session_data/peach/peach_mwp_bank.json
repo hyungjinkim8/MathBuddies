@@ -1,0 +1,956 @@
+{
+  "2025-12-02_031127": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-02_031127",
+    "total_problems": 15,
+    "final_dl": 8,
+    "final_text_l": "medium",
+    "problems": [
+      {
+        "Q": "Maya planted 13 rows of sunflowers in her garden. Each row had 7 sunflowers. How many sunflowers did Maya plant?",
+        "A": 91,
+        "F": "13*7",
+        "R": "Key facts: Maya planted 13 rows of sunflowers, with 7 sunflowers in each row. Calculation: Multiply the number of rows by the number of sunflowers per row to find the total: 13 * 7 = 91. Therefore, Maya planted 91 sunflowers.",
+        "Score": 1,
+        "math_dl": 6,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "At a park, 15 benches each had 5 bird feeders hanging from them. How many bird feeders were there in total?",
+        "A": 75,
+        "F": "15*5",
+        "R": "Key facts: There are 15 benches with 5 bird feeders on each bench. Calculation: Multiply benches by feeders per bench: 15 * 5 = 75. So, there are 75 bird feeders in total.",
+        "Score": 1,
+        "math_dl": 6,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Liam collected 12 jars of marbles. Each jar contained 8 marbles. How many marbles did Liam collect?",
+        "A": 96,
+        "F": "12*8",
+        "R": "Key facts: Liam has 12 jars, each with 8 marbles. Calculation: Multiply jars by marbles per jar: 12 * 8 = 96. Therefore, Liam collected 96 marbles.",
+        "Score": 0,
+        "math_dl": 6,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Nina planted 12 rows of tulips with 5 tulips in each row. How many tulips did she plant in total?",
+        "A": 60,
+        "F": "12*5",
+        "R": "Key facts: Nina planted 12 rows. Each row has 5 tulips. Calculation: Multiply the number of rows by tulips in each row: 12 * 5 = 60. Nina planted a total of 60 tulips.",
+        "Score": 0,
+        "math_dl": 6,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A theater has 15 rows of seats with 4 seats in each row. How many seats are there altogether?",
+        "A": 60,
+        "F": "15*4",
+        "R": "Key facts: There are 15 rows and 4 seats in each row. Calculation: Multiply the rows by seats per row: 15 * 4 = 60. The theater has 60 seats in total.",
+        "Score": 1,
+        "math_dl": 6,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "During the community garden cleanup day, Jordan collected 96 colorful leaves to make leaf art projects. If each art project requires 8 leaves, how many art projects can Jordan create?",
+        "A": 12,
+        "F": "96/8",
+        "R": "Key facts: Jordan collected 96 leaves and each art project requires 8 leaves. Calculation: To find the number of art projects, divide the total leaves by leaves per project: 96 \u00f7 8 = 12. Jordan can create 12 art projects.",
+        "Score": 1,
+        "math_dl": 7,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "At the local library, Mia found 84 new books arranged neatly on shelves. If each shelf can hold exactly 7 books, how many shelves are completely filled with new books?",
+        "A": 12,
+        "F": "84/7",
+        "R": "Key facts: There are 84 new books and each shelf holds 7 books. Calculation: The number of fully filled shelves is the total books divided by books per shelf: 84 \u00f7 7 = 12. So, 12 shelves are filled.",
+        "Score": 0,
+        "math_dl": 7,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "During a school art exhibition, Cameron arranged 90 miniature sculptures on display tables. If each table can hold 10 sculptures, how many tables did Cameron use for the exhibition?",
+        "A": 9,
+        "F": "90/10",
+        "R": "Key facts: Cameron arranged 90 sculptures and each table holds 10 sculptures. Calculation: Divide total sculptures by sculptures per table: 90 \u00f7 10 = 9. Cameron used 9 tables.",
+        "Score": 1,
+        "math_dl": 7,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "Sophie baked 72 cupcakes for the neighborhood party and placed them evenly in boxes. If each box holds 9 cupcakes, how many boxes did Sophie fill?",
+        "A": 8,
+        "F": "72/9",
+        "R": "Key facts: Sophie baked 72 cupcakes and each box holds 9 cupcakes. Calculation: To find boxes needed, divide total cupcakes by cupcakes per box: 72 \u00f7 9 = 8. Sophie filled 8 boxes.",
+        "Score": 1,
+        "math_dl": 7,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "Ethan collected 56 colorful marbles from the playground and decided to divide them equally into small bags. If each bag contains 7 marbles, how many bags did Ethan fill?",
+        "A": 8,
+        "F": "56/7",
+        "R": "Key facts: Ethan has 56 marbles and each bag contains 7 marbles. Calculation: Number of bags equals total marbles divided by marbles per bag: 56 \u00f7 7 = 8. Ethan filled 8 bags.",
+        "Score": 0,
+        "math_dl": 7,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "In a small theater, 9 rows of seats have 14 seats each. How many seats are there in the theater altogether?",
+        "A": 126,
+        "F": "9*14",
+        "R": "Key facts: The theater has 9 rows with 14 seats in each row. Calculation: Multiply the number of rows by the number of seats per row. 9 * 14 = 126 seats. Final answer: The theater has 126 seats altogether.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A gardener plants 15 rows of tulips. Each row contains 7 tulip bulbs. How many tulip bulbs did the gardener plant?",
+        "A": 105,
+        "F": "15*7",
+        "R": "Key facts: There are 15 rows of tulip bulbs, each with 7 bulbs. Calculation: Multiply the number of rows by bulbs per row to get total bulbs. 15 * 7 = 105 tulip bulbs. Final answer: The gardener planted 105 tulip bulbs.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A printing shop produces 8 batches of postcards. Each batch has 18 postcards printed. How many postcards did the shop print?",
+        "A": 144,
+        "F": "8*18",
+        "R": "Key facts: 8 batches of postcards, each batch with 18 postcards. Calculation: Multiply batches by postcards per batch. 8 * 18 = 144 postcards. Final answer: The shop printed 144 postcards.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Leo collected 7 sets of stamps. Each set has 18 stamps. How many stamps does Leo have altogether?",
+        "A": 126,
+        "F": "7*18",
+        "R": "Key facts: Leo has 7 sets of stamps, each with 18 stamps. Calculation: Multiply sets by stamps per set: 7 * 18 = 126. Final answer: Leo has 126 stamps altogether.",
+        "Score": 0,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A bookshop received 15 boxes. Each box holds 9 storybooks. How many storybooks did the bookshop get?",
+        "A": 135,
+        "F": "15*9",
+        "R": "Key facts: 15 boxes each containing 9 storybooks. Calculation: Multiply the number of boxes by books per box. 15 * 9 = 135 storybooks. Final answer: The bookshop received 135 storybooks.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      }
+    ]
+  },
+  "2025-12-02_032214": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-02_032214",
+    "total_problems": 5,
+    "final_dl": 8,
+    "final_text_l": "medium",
+    "problems": [
+      {
+        "Q": "Liam\u2019s bookstore sold 18 copies of a new book each day. If the book was sold for 7 days, how many books did Liam sell in total?",
+        "A": 126,
+        "F": "18*7",
+        "R": "Key facts: Liam sold 18 copies of a book each day for 7 days. Calculation: Multiply the number of copies sold each day by the number of days. 18 books/day * 7 days = 126 books. Final answer: Liam sold 126 books in total.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Sophia\u2019s art class uses 15 sheets of paper per project. If she completes 8 projects, how many sheets of paper will she use?",
+        "A": 120,
+        "F": "15*8",
+        "R": "Key facts: Sophia uses 15 sheets for each project and completes 8 projects. Calculation: Multiply sheets per project by number of projects. 15 sheets/project * 8 projects = 120 sheets. Final answer: Sophia will use 120 sheets of paper.",
+        "Score": 0,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A baker packs 12 cupcakes in one box. If he packs 11 boxes, how many cupcakes does he pack in total?",
+        "A": 132,
+        "F": "12*11",
+        "R": "Key facts: The baker packs 12 cupcakes in each box and packs 11 boxes. Calculation: Multiply cupcakes per box by the number of boxes. 12 cupcakes/box * 11 boxes = 132 cupcakes. Final answer: The baker packs 132 cupcakes in total.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Mr. Patel planted 72 rose bushes. Each bush has 5 flowers blooming. How many flowers did Mr. Patel grow?",
+        "A": 360,
+        "F": "72*5",
+        "R": "Key facts: Mr. Patel planted 72 rose bushes with 5 flowers each. Calculation: Multiply the bushes by the flowers per bush. 72 bushes * 5 flowers = 360 flowers. Final answer: Mr. Patel grew 360 flowers.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A bakery made 63 boxes of cookies. Each box contains 6 cookies. How many cookies did the bakery make?",
+        "A": 378,
+        "F": "63*6",
+        "R": "Key facts: The bakery made 63 boxes, each with 6 cookies. Calculation: Multiply boxes by cookies per box. 63 boxes * 6 cookies = 378 cookies. Final answer: The bakery made 378 cookies.",
+        "Score": 0,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      }
+    ]
+  },
+  "2025-12-02_033240": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-02_033240",
+    "total_problems": 2,
+    "final_dl": 8,
+    "final_text_l": "medium",
+    "problems": [
+      {
+        "Q": "Carlos planted 18 rows of sunflowers in his garden. Each row has 6 sunflowers. How many sunflowers did he plant?",
+        "A": 108,
+        "F": "18*6",
+        "R": "Key facts: Carlos planted 18 rows, and each row contains 6 sunflowers. Calculation: Multiply rows by sunflowers per row: 18 * 6 = 108. Final answer: Carlos planted 108 sunflowers in his garden.",
+        "Score": 0,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "The local library has 28 bookshelves. Each bookshelf holds 8 adventure books. How many adventure books are there?",
+        "A": 224,
+        "F": "28*8",
+        "R": "Key facts: There are 28 bookshelves, each with 8 adventure books. Calculation: Multiply bookshelves by books per shelf: 28 * 8 = 224. Final answer: The library has 224 adventure books.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      }
+    ]
+  },
+  "2025-12-02_033632": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-02_033632",
+    "total_problems": 5,
+    "final_dl": 8,
+    "final_text_l": "medium",
+    "problems": [
+      {
+        "Q": "Mr. Chen baked 9 trays of cookies for the school fair. Each tray holds 18 cookies. How many cookies did he bake altogether?",
+        "A": 162,
+        "F": "9*18",
+        "R": "Key facts: Mr. Chen baked 9 trays, and each tray has 18 cookies. Calculation: Multiply trays by cookies per tray. 9 * 18 = 162 cookies. Final answer: Mr. Chen baked 162 cookies altogether.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A library has 8 shelves of books. Each shelf contains 26 books about animals. How many animal books are there on all the shelves?",
+        "A": 208,
+        "F": "8*26",
+        "R": "Key facts: There are 8 shelves, each holding 26 animal books. Calculation: Multiply shelves by books per shelf. 8 * 26 = 208 books. Final answer: There are 208 animal books on all the shelves.",
+        "Score": 0,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A bakery made 5 batches of cupcakes. Each batch had 32 cupcakes. How many cupcakes did the bakery make?",
+        "A": 160,
+        "F": "5*32",
+        "R": "Key facts: The bakery made 5 batches, with 32 cupcakes in each. Calculation: Multiply batches by cupcakes per batch. 5 * 32 = 160 cupcakes. Final answer: The bakery made 160 cupcakes.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Liam planted 27 rows of tulips in his garden. Each row has 6 tulip bulbs. How many tulip bulbs did Liam plant in total?",
+        "R": "Key facts: Liam planted 27 rows of tulips. Each row contains 6 tulip bulbs. Calculation: Multiply the number of rows by the number of bulbs per row. 27 * 6 = 162. Final answer: Liam planted 162 tulip bulbs in total.",
+        "F": "27*6",
+        "A": 162,
+        "Score": 0,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Maya bought 8 packs of colored pencils. Each pack contains 38 pencils. How many pencils did Maya buy in total?",
+        "R": "Key facts: Maya bought 8 packs, each with 38 pencils. Calculation: Multiply number of packs by pencils per pack. 8 * 38 = 304. Final answer: Maya bought 304 colored pencils.",
+        "F": "8*38",
+        "A": 304,
+        "Score": 0,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      }
+    ]
+  },
+  "2025-12-02_034427": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-02_034427",
+    "total_problems": 11,
+    "final_dl": 10,
+    "final_text_l": "low",
+    "problems": [
+      {
+        "Q": "Carlos runs 14 laps around the park every morning. Each lap is 9 minutes long. How many minutes does he run in total?",
+        "A": 126,
+        "F": "14*9",
+        "R": "Key facts: Carlos runs 14 laps, each lasting 9 minutes. Calculation: Multiply the number of laps by minutes per lap to find total minutes. 14 * 9 = 126 minutes. Final answer: Carlos runs for 126 minutes in total.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A community garden has 38 rows of tomato plants. Each row has 4 tomato plants. How many tomato plants are in the garden?",
+        "A": 152,
+        "F": "38*4",
+        "R": "Key facts: There are 38 rows with 4 tomato plants each. Calculation: Multiply the number of rows by the plants per row. 38 * 4 = 152. Final answer: The garden has 152 tomato plants in total.",
+        "Score": 0,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Emily reads 5 pages from her book every day for 35 days. How many pages does she read in total?",
+        "A": 175,
+        "F": "5*35",
+        "R": "Key facts: Emily reads 5 pages daily for 35 days. Calculation: Multiply pages per day by the total days. 5 * 35 = 175. Final answer: Emily reads 175 pages in total.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A theater has 42 rows of seats. Each row contains 3 seats. How many seats are there in the entire theater?",
+        "A": 126,
+        "F": "42*3",
+        "R": "Key facts: The theater has 42 rows and each row has 3 seats. Calculation: Multiply the number of rows by seats per row. 42 * 3 = 126. Final answer: The theater has 126 seats in total.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Jacob packs 9 gift boxes. Each box contains 18 pencils. How many pencils did Jacob pack?",
+        "A": 162,
+        "F": "9*18",
+        "R": "Key facts: Jacob packs 9 boxes with 18 pencils each. Calculation: Multiply number of boxes by pencils per box. 9 * 18 = 162. Final answer: Jacob packed 162 pencils.",
+        "Score": 1,
+        "math_dl": 8,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Mr. Chen has 168 pages to read in his new book. If he plans to read the same number of pages each day for 7 days, how many pages does he read per day?",
+        "A": 24,
+        "F": "168/7",
+        "R": "Key facts: The book has 168 pages, and Mr. Chen wants to read it over 7 days equally. Calculation: Divide 168 pages by 7 days. 168 \u00f7 7 = 24. Final answer: Mr. Chen reads 24 pages each day.",
+        "Score": 1,
+        "math_dl": 9,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Lina painted 24 birds. Each bird took 3 strokes. She used 12 strokes for the sky. How many strokes did she use in total?",
+        "A": 84,
+        "F": "24*3+12",
+        "R": "Key facts: Lina painted 24 birds, each took 3 strokes. She used 12 strokes for the sky. Calculation: Total strokes for birds = 24 * 3 = 72. Total strokes including the sky = 72 + 12 = 84. Therefore, Lina used 84 strokes in total.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Sam baked 8 trays of cookies. Each tray had 9 cookies. He gave away 15 cookies. How many cookies does Sam have left?",
+        "A": 57,
+        "F": "8*9-15",
+        "R": "Key facts: Sam baked 8 trays with 9 cookies each. He gave away 15 cookies. Calculation: Total cookies baked = 8 * 9 = 72. Cookies left after giving away = 72 - 15 = 57. So, Sam has 57 cookies left.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Tom has 7 packs of pencils. Each pack has 12 pencils. He gave 30 pencils to friends. How many pencils remain?",
+        "A": 54,
+        "F": "7*12-30",
+        "R": "Key facts: Tom has 7 packs with 12 pencils each. He gave 30 pencils away. Calculation: Total pencils = 7 * 12 = 84. Pencils remaining = 84 - 30 = 54. So, Tom has 54 pencils left.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "A library has 144 books and wants to arrange them evenly on 8 shelves. How many books will be on each shelf?",
+        "A": 18,
+        "F": "144/8",
+        "R": "Key facts: There are 144 books and 8 shelves. Calculation: To find how many books go on each shelf, divide total books by shelves: 144 \u00f7 8 = 18. Final answer: Each shelf will have 18 books.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "A baker baked 225 cookies and packs them into boxes with 5 cookies each. How many boxes did the baker fill?",
+        "A": 45,
+        "F": "225/5",
+        "R": "Key facts: 225 cookies and each box holds 5 cookies. Calculation: Divide total cookies by cookies per box: 225 \u00f7 5 = 45. Final answer: The baker filled 45 boxes.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "low"
+      }
+    ]
+  },
+  "2025-12-02_035220": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-02_035220",
+    "total_problems": 10,
+    "final_dl": 11,
+    "final_text_l": "high",
+    "problems": [
+      {
+        "Q": "Leo has 9 boxes. Each box has 12 toy cars. He gave 45 toy cars to his cousin. How many toy cars does Leo have now?",
+        "A": 63,
+        "F": "(9*12)-45",
+        "R": "Key facts: Leo has 9 boxes with 12 cars each. He gave away 45 cars. Calculation: Total cars = 9 \u00d7 12 = 108. Cars left = 108 - 45 = 63. Therefore, Leo has 63 toy cars now.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Sami bought 14 packs of pencils. Each pack has 7 pencils. He gave 38 pencils to his classmates. How many pencils does Sami have now?",
+        "A": 60,
+        "F": "(14*7)-38",
+        "R": "Key facts: Sami bought 14 packs, 7 pencils each. He gave away 38 pencils. Calculation: Total pencils = 14 \u00d7 7 = 98. Pencils left = 98 - 38 = 60. Therefore, Sami has 60 pencils now.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "A garden has 15 rows of carrots. Each row has 7 carrots. Sam picked 65 carrots. How many carrots are left in the garden?",
+        "A": 40,
+        "F": "(15*7)-65",
+        "R": "Key facts: The garden has 15 rows with 7 carrots each. Sam picked 65 carrots. Calculation: Total carrots = 15 * 7 = 105. Leftover carrots = 105 - 65 = 40. So, there are 40 carrots left.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Mira bought 18 packs of crayons. Each pack has 8 crayons. She gave away 50 crayons. How many crayons does she have now?",
+        "A": 94,
+        "F": "(18*8)-50",
+        "R": "Key facts: Mira bought 18 packs with 8 crayons each. She gave away 50 crayons. Calculation: Total crayons = 18 * 8 = 144. Crayons left = 144 - 50 = 94. Mira has 94 crayons now.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "There are 9 classrooms. Each has 11 desks. If 35 desks are broken, how many desks are still good?",
+        "A": 64,
+        "F": "(9*11)-35",
+        "R": "Key facts: There are 9 classrooms with 11 desks each. 35 desks are broken. Calculation: Total desks = 9 * 11 = 99. Good desks = 99 - 35 = 64. So, 64 desks are still good.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Amira collected 144 rocks during her nature hike, but she decided to give 9 rocks to each of her 8 friends. After giving away these rocks, how many rocks does Amira have left?",
+        "A": 72,
+        "F": "144 - 9 * 8",
+        "R": "Key facts: Amira has 144 rocks and gives 9 rocks each to 8 friends. Calculation: First find total rocks given away by multiplying 9 by 8 which equals 72. Then subtract 72 from 144 to find how many rocks remain. 144 - 72 = 72. The answer is 72 rocks.",
+        "Score": 1,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "Carlos bought 135 marbles and then divided them equally into 5 small jars. After putting 10 extra marbles into one jar, how many marbles does that jar contain now?",
+        "A": 37,
+        "F": "135 / 5 + 10",
+        "R": "Key facts: Carlos has 135 marbles divided equally into 5 jars, then adds 10 more marbles to one jar. Calculation: Divide 135 by 5 to get 27 marbles in each jar. Then add 10 extra marbles to one jar, which makes 27 + 10 = 37 marbles. The jar now contains 37 marbles.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A gardener planted 168 flowers equally in 7 garden beds. After planting 21 more flowers, he decided to divide all the flowers equally again into the 7 beds. How many flowers does each bed have now?",
+        "A": 27,
+        "F": "(168 + 21) / 7",
+        "R": "Key facts: 168 flowers planted equally in 7 beds, then 21 more flowers added and distributed equally. Calculation: Add 168 and 21 to get 189 flowers in total. Then divide 189 by 7 beds: 189 \u00f7 7 = 27. Each bed now has 27 flowers.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "During a school fundraiser, 126 pencils were packed into boxes with 9 pencils each. After selling 8 boxes, how many pencils were left in the remaining boxes?",
+        "A": 54,
+        "F": "126 - 9 * 8",
+        "R": "Key facts: 126 pencils, packed 9 per box, 8 boxes sold. Calculation: Multiply 9 pencils per box by 8 boxes sold to find sold pencils: 9 * 8 = 72. Subtract 72 from 126 to find pencils left: 126 - 72 = 54. The remaining boxes have 54 pencils.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "Tina collected 225 sea shells and split them equally into 5 baskets. If she adds 18 extra shells to one basket, how many shells will that basket have now?",
+        "A": 63,
+        "F": "225 / 5 + 18",
+        "R": "Key facts: Tina has 225 shells, splits equally into 5 baskets, then adds 18 more shells to one basket. Calculation: Divide 225 by 5 to find shells per basket: 225 \u00f7 5 = 45. Then add 18 extra shells to one basket: 45 + 18 = 63. That basket now has 63 shells.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      }
+    ]
+  },
+  "2025-12-03_022355": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-03_022355",
+    "total_problems": 4,
+    "final_dl": 11,
+    "final_text_l": "high",
+    "problems": [
+      {
+        "Q": "In a city library, 432 new books were sorted equally onto 8 shelves. Later, the librarian removed 36 damaged books from one shelf. How many books remain on that shelf after the removal?",
+        "A": 18,
+        "F": "432 / 8 - 36",
+        "R": "Key facts: There are 432 books divided equally onto 8 shelves, and 36 books are removed from one shelf. Calculation: First, divide 432 by 8 to find the number of books per shelf (432 / 8 = 54). Then subtract the 36 damaged books (54 - 36 = 18). So, there are 18 books left on that shelf.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A toy factory made 288 toy cars and packed them equally into 9 boxes. If 2 boxes were sent to a toy store, how many toy cars remain in the factory?",
+        "A": 224,
+        "F": "288 - 2 * (288 / 9)",
+        "R": "Key facts: There are 288 toy cars packed equally into 9 boxes, and 2 boxes were sent to a store. Calculation: Find cars per box by dividing 288 by 9 (288 / 9 = 32). Multiply 2 by 32 to find cars sent to the store (2 * 32 = 64). Subtract this from the total cars (288 - 64 = 224). So, 224 toy cars remain in the factory.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A baker made 126 muffins and packed them in boxes of 9 muffins each. After packing 8 boxes, how many muffins are still unpacked?",
+        "A": 54,
+        "F": "126 - (9 * 8)",
+        "R": "Key facts: The baker has 126 muffins, packs 9 muffins in each box, and packed 8 boxes. Calculation: Multiply 9 muffins by 8 boxes: 9 * 8 = 72. Subtract packed muffins from total: 126 - 72 = 54. So, 54 muffins remain unpacked.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A gardener planted 135 flowers evenly in 5 rows and then added 8 extra flowers to the first row. How many flowers are now in the first row?",
+        "A": 35,
+        "F": "135 / 5 + 8",
+        "R": "Key facts: There are 135 flowers planted evenly in 5 rows, and 8 extra flowers added to the first row. Calculation: Divide flowers by rows: 135 / 5 = 27 flowers per row. Add 8 extra flowers: 27 + 8 = 35 flowers in the first row.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      }
+    ]
+  },
+  "2025-12-03_031438": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-03_031438",
+    "total_problems": 6,
+    "final_dl": 11,
+    "final_text_l": "medium",
+    "problems": [
+      {
+        "Q": "A library received 144 new books this month. If the librarian arranged them equally on 8 shelves and then added 27 more books on one special shelf, how many books are on that special shelf now?",
+        "A": 45,
+        "F": "144 / 8 + 27",
+        "R": "Key facts: The library got 144 books, arranged equally on 8 shelves, and then 27 extra books were added to one special shelf. Calculation: First, divide 144 books by 8 shelves to find how many books per shelf: 144 / 8 = 18 books per shelf. Then add 27 extra books to the special shelf: 18 + 27 = 45 books. The special shelf now has 45 books.",
+        "Score": 1,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A concert hall has 288 chairs arranged in 9 rows with the same number of chairs in each row. After removing 21 chairs from one row for equipment, how many chairs remain in that row?",
+        "A": 11,
+        "F": "288 / 9 - 21",
+        "R": "Key facts: 288 chairs arranged in 9 rows equally, 21 chairs removed from one row. Calculation: Chairs per row: 288 / 9 = 32. After removing 21 chairs: 32 - 21 = 11 chairs remain in that row.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A farmer gathered 216 eggs from 8 henhouses equally, but 19 eggs were cracked and removed from one henhouse's collection. How many good eggs remain in that henhouse?",
+        "A": 8,
+        "F": "216 / 8 - 19",
+        "R": "Key facts: 216 eggs collected from 8 henhouses equally, 19 cracked eggs removed from one henhouse. Calculation: Eggs per henhouse: 216 / 8 = 27. After removing 19 cracked eggs: 27 - 19 = 8 good eggs remain.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "Oliver collected 192 shells on the beach and plans to create necklaces using 8 shells each. If he gives 24 shells to his friends, how many necklaces can he make with the remaining shells?",
+        "A": 21,
+        "F": "(192 - 24) / 8",
+        "R": "Key facts: Oliver has 192 shells, uses 8 shells per necklace, gives away 24 shells. Calculation: Remaining shells: 192 - 24 = 168. Divide by shells per necklace: 168 / 8 = 21 necklaces. Oliver can make 21 necklaces.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A school cafeteria served 315 meals and divided them into trays holding 5 meals each. After serving 45 meals to teachers separately, how many trays with meals remain for students?",
+        "A": 54,
+        "F": "(315 - 45) / 5",
+        "R": "Key facts: 315 meals, 5 per tray, 45 meals served to teachers. Calculation: Meals for students: 315 - 45 = 270. Trays for students: 270 / 5 = 54 trays remain.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A library has 198 books. They arranged the books on 6 shelves equally. Later, 24 new books arrive and are also split equally onto the shelves. How many books are on each shelf now?",
+        "A": 37,
+        "F": "(198/6)+(24/6)",
+        "R": "Key facts: Library has 198 books on 6 shelves, then 24 new books arrive and are split the same way. Calculation: Initially, each shelf has 198 / 6 = 33 books. New books per shelf: 24 / 6 = 4 books. Add both: 33 + 4 = 37 books per shelf now. Final answer: Each shelf has 37 books.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      }
+    ]
+  },
+  "2025-12-07_182351": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-07_182351",
+    "total_problems": 5,
+    "final_dl": 11,
+    "final_text_l": "medium",
+    "problems": [
+      {
+        "Q": "Liam collected 144 seashells on the beach. He gave 36 seashells to his friend and then divided the rest equally into 4 jars. How many seashells did Liam put in each jar?",
+        "A": 27,
+        "F": "(144-36)/4",
+        "R": "Key facts: Liam had 144 seashells and gave away 36. The remaining seashells were split into 4 jars equally. Calculation: First, subtract the seashells given away from the total: 144 - 36 = 108 seashells left. Then divide 108 by 4 jars to find the number in each jar: 108 / 4 = 27 seashells per jar. Final answer: Liam put 27 seashells in each jar.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Ethan bought 198 balloons for a party. He used 11 balloons to decorate each table and decorated 6 tables. How many balloons does he have left?",
+        "A": 132,
+        "F": "198-(11*6)",
+        "R": "Key facts: Ethan bought 198 balloons, used 11 balloons per table, and decorated 6 tables. Calculation: Multiply balloons used: 11 * 6 = 66 balloons. Subtract used balloons from total: 198 - 66 = 132 balloons left. Final answer: Ethan has 132 balloons left.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Liam collected 324 seashells on the beach. He gave 27 shells to each of his 6 friends. How many seashells did Liam keep for himself?",
+        "A": 162,
+        "F": "324-27*6",
+        "R": "Key facts: Liam has 324 seashells and gives 27 shells to each of 6 friends. Calculation: Multiply 27 shells by 6 friends to find shells given away: 27 * 6 = 162. Subtract that from total shells to find how many Liam kept: 324 - 162 = 162. Final answer: Liam kept 162 seashells.",
+        "Score": 1,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A library has 480 books. They packed the books into boxes with 8 books each and sent 30 boxes to a school. How many books are left in the library after the shipment?",
+        "A": 240,
+        "F": "480-8*30",
+        "R": "Key facts: Library has 480 books, packs 8 books per box, and sends 30 boxes. Calculation: Multiply 8 books by 30 boxes to find books sent: 8 * 30 = 240. Subtract that from total books to find books left: 480 - 240 = 240. Final answer: 240 books remain in the library.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Olivia planted 225 flower bulbs. She grouped them in 9 pots equally and added 12 more bulbs to each pot. How many flower bulbs are in all the pots now?",
+        "A": 333,
+        "F": "225+9*12",
+        "R": "Key facts: Olivia has 225 bulbs, groups them into 9 pots equally, then adds 12 bulbs per pot. Calculation: Total bulbs added: 9 * 12 = 108. Add to original bulbs: 225 + 108 = 333. Final answer: There are 333 flower bulbs in all pots now.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      }
+    ]
+  },
+  "2025-12-07_184541": {
+    "user_id": "hyungjin",
+    "session_id": "2025-12-07_184541",
+    "total_problems": 5,
+    "final_dl": 11,
+    "final_text_l": "medium",
+    "problems": [
+      {
+        "Q": "Liam has 324 comic books. He gave 72 comics to his friend and then packed the rest equally into 9 boxes. How many comics are in each box?",
+        "A": 28,
+        "F": "(324-72)/9",
+        "R": "Key facts: Liam started with 324 comic books. He gave away 72 comics. The remaining comics were packed into 9 equal boxes. Calculation: First, subtract the comics given away from the total: 324 - 72 = 252 comics left. Then, divide the remaining comics by 9 boxes: 252 / 9 = 28 comics per box. Final answer: Each box has 28 comics.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Sophia baked 189 cookies. She gave 45 cookies to her neighbors and then divided the rest into 3 equal bags. How many cookies did she put in each bag?",
+        "A": 48,
+        "F": "(189-45)/3",
+        "R": "Key facts: Sophia baked 189 cookies and gave 45 away. The remaining cookies were divided into 3 equal bags. Calculation: First, find how many cookies are left after giving some away: 189 - 45 = 144 cookies. Then, divide 144 by 3 bags: 144 / 3 = 48 cookies per bag. Final answer: Each bag contains 48 cookies.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Sophia baked 180 cookies for a school event. She packed the cookies into boxes with 6 cookies in each. If she used 20 boxes, how many cookies does she have left after packing?",
+        "A": 60,
+        "F": "180 - 6 * 20",
+        "R": "Key facts: Sophia baked 180 cookies and packed 6 cookies per box into 20 boxes. Calculation: Total cookies packed are 6 * 20 = 120. Subtract packed cookies from the total: 180 - 120 = 60 cookies left. Final answer: Sophia has 60 cookies left after packing.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A library had 315 books. They sold 45 books and then arranged the remaining books equally on 9 shelves. How many books are on each shelf now?",
+        "A": 30,
+        "F": "(315-45)/9",
+        "R": "Key facts: The library had 315 books, sold 45, and arranged remaining books on 9 shelves. Calculation: Subtract books sold: 315 - 45 = 270 books left. Divide by shelves: 270 / 9 = 30 books per shelf. Final answer: Each shelf has 30 books.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A farmer harvested 288 pumpkins. He sold 36 of them and packed the rest into crates with 12 pumpkins in each. How many crates did he fill?",
+        "A": 21,
+        "F": "(288-36)/12",
+        "R": "Key facts: Farmer harvested 288 pumpkins, sold 36, and packed the rest into crates of 12. Calculation: Subtract sold pumpkins: 288 - 36 = 252. Divide by crate size: 252 / 12 = 21 crates. Final answer: Farmer filled 21 crates.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      }
+    ]
+  },
+  "2025-12-08_062117": {
+    "user_id": "peach",
+    "session_id": "2025-12-08_062117",
+    "total_problems": 12,
+    "final_dl": 10,
+    "final_text_l": "high",
+    "problems": [
+      {
+        "Q": "Sophia read 216 pages in her book. She read 18 pages each day for a week, then read some extra pages. How many extra pages did Sophia read after the week?",
+        "A": 90,
+        "F": "216-(18*7)",
+        "R": "Key facts: Sophia read 216 pages total, read 18 pages per day for 7 days. Calculation: Multiply pages per day by days: 18 * 7 = 126 pages read during the week. Subtract that from total pages: 216 - 126 = 90 extra pages. Final answer: Sophia read 90 extra pages after the week.",
+        "Score": 1,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Noah collected 315 stamps and sorted them equally into 9 albums. Later, he bought 27 more stamps. How many stamps does Noah have now?",
+        "A": 342,
+        "F": "(315/9)*9+27",
+        "R": "Key facts: Noah had 315 stamps sorted equally into 9 albums, then got 27 more stamps. Calculation: 315 stamps divided into 9 albums means each album has 315 / 9 = 35 stamps. Total stamps before new ones = 35 * 9 = 315. After buying 27 more: 315 + 27 = 342 stamps. Final answer: Noah has 342 stamps now.",
+        "Score": 1,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Emma baked 252 cookies for a school event. She packed them into boxes with 7 cookies each and gave away 18 boxes. How many cookies did Emma still have?",
+        "A": 126,
+        "F": "252-(7*18)",
+        "R": "Key facts: Emma baked 252 cookies, packed 7 cookies per box, gave away 18 boxes. Calculation: Cookies given away = 7 * 18 = 126. Remaining cookies = 252 - 126 = 126. Final answer: Emma still has 126 cookies.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A library has 384 books on one shelf. They move 96 books to another shelf and then arrange the rest evenly into 8 boxes. How many books are in each box?",
+        "A": 36,
+        "F": "(384-96)/8",
+        "R": "Key facts: There are 384 books initially, 96 are moved away, and the rest are packed into 8 boxes equally. Calculation: Subtract moved books: 384 - 96 = 288 books left. Divide 288 by 8 boxes: 288 / 8 = 36 books per box. Final answer: Each box holds 36 books.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Emma planted 693 tulips. After 243 tulips were sold, she arranged the rest evenly into 9 flower pots. How many tulips are in each pot?",
+        "A": 50,
+        "F": "(693-243)/9",
+        "R": "Key facts: Emma planted 693 tulips, sold 243, and put the remaining tulips equally into 9 pots. Calculation: Subtract sold tulips: 693 - 243 = 450. Divide 450 by 9 pots: 450 / 9 = 50 tulips per pot. Final answer: Each pot contains 50 tulips.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Maya picked 124 flowers. She gave 4 friends 3 flowers each. How many flowers does she have left?",
+        "A": 112,
+        "F": "124-(4*3)",
+        "R": "Key facts: Maya picked 124 flowers and gave 3 flowers to each of 4 friends. Calculation: Multiply 4 friends by 3 flowers each: 4 * 3 = 12 flowers given away. Subtract 12 from 124 to find flowers left: 124 - 12 = 112. Therefore, Maya has 112 flowers left.",
+        "Score": 1,
+        "math_dl": 11,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Maya painted 225 postcards. She sold them in packs of 5 postcards each and then donated 45 postcards. How many packs did Maya sell?",
+        "A": 36,
+        "F": "(225-45)/5",
+        "R": "Key facts: Maya painted 225 postcards, donated 45, and sold the rest in packs of 5. Calculation: Subtract donated postcards: 225 - 45 = 180 postcards sold. Divide 180 by 5 postcards per pack: 180 / 5 = 36 packs sold. Final answer: Maya sold 36 packs.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Ethan has 216 marbles. He gives 8 marbles to each of his 12 classmates. How many marbles remain with Ethan?",
+        "A": 120,
+        "F": "216 - 8 * 12",
+        "R": "Key facts: Ethan starts with 216 marbles and gives 8 to each of 12 classmates. Calculation: Calculate total marbles given away: 8 * 12 = 96 marbles. Subtract that from the total marbles: 216 - 96 = 120 marbles. Final answer: Ethan has 120 marbles left.",
+        "Score": 1,
+        "math_dl": 11,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Lina bought 123 crayons. She gave 7 friends 5 crayons each. How many crayons does Lina have left?",
+        "A": 88,
+        "F": "123-(7*5)",
+        "R": "Key facts: Lina bought 123 crayons and gave 7 friends 5 crayons each. Calculation: Multiply 7 by 5 to find crayons given away: 7 * 5 = 35. Subtract 35 from 123 to find remaining crayons: 123 - 35 = 88. Lina has 88 crayons left.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "A library has 432 books. They put 8 books on each shelf. After filling 40 shelves, how many books remain?",
+        "A": 112,
+        "F": "432-(40*8)",
+        "R": "Key facts: The library has 432 books, 8 books go on each shelf, and 40 shelves are filled. Calculation: Calculate books on 40 shelves: 40 * 8 = 320. Subtract from total books: 432 - 320 = 112. So, 112 books remain.",
+        "Score": 0,
+        "math_dl": 11,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "A pet shelter has twenty-eight puppies, and each puppy needs three meals a day. If the shelter gives away five puppies to new homes, how many meals do the remaining puppies need in a day?",
+        "A": 69,
+        "F": "(28-5)*3",
+        "R": "Key facts: Shelter started with 28 puppies; each needs 3 meals daily; 5 puppies were given away. Calculation: Remaining puppies = 28 - 5 = 23. Meals needed = 23 \u00d7 3 = 69. Therefore, 69 meals are needed for the day.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "In a baking class, there were fifteen students. Each student baked four cupcakes and gave away two cupcakes each. After that, how many cupcakes were left with the students altogether?",
+        "A": 30,
+        "F": "15*(4-2)",
+        "R": "Key facts: 15 students baked 4 cupcakes each; each gave away 2 cupcakes. Calculation: Cupcakes remaining per student = 4 - 2 = 2; total cupcakes remaining = 15 \u00d7 2 = 30. So, there were 30 cupcakes left with the students.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "high"
+      }
+    ]
+  },
+  "2025-12-08_063627": {
+    "user_id": "peach",
+    "session_id": "2025-12-08_063627",
+    "total_problems": 14,
+    "final_dl": 10,
+    "final_text_l": "low",
+    "problems": [
+      {
+        "Q": "Sophia bought 45 colorful beads to make bracelets. She uses 5 beads for each bracelet, but before starting, she gave away 10 beads to her friend. How many complete bracelets can Sophia make with the beads left?",
+        "A": 7,
+        "F": "(45-10)/5",
+        "R": "Key facts: Sophia had 45 beads, gave away 10, and uses 5 beads per bracelet. Calculation: Subtract beads given away from total: 45 - 10 = 35. Divide remaining beads by beads per bracelet: 35 / 5 = 7. Final answer: Sophia can make 7 complete bracelets.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "During a sports day, Noah ran 9 races, and each race was 12 laps around the field. After completing all races, he rested and then ran 15 fewer laps during warm-up. How many laps did Noah run during the races minus the laps he skipped during warm-up?",
+        "A": 93,
+        "F": "9*12-15",
+        "R": "Key facts: Noah ran 9 races with 12 laps each, then skipped 15 laps during warm-up. Calculation: Multiply races by laps per race: 9 * 12 = 108. Subtract skipped laps: 108 - 15 = 93. Final answer: Noah ran 93 laps after subtracting the skipped laps.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "A gardener planted 16 rows of flowers with 6 flowers in each row. After removing 29 flowers for a school project, how many flowers were left in the garden?",
+        "A": 67,
+        "F": "16*6-29",
+        "R": "Key facts: There are 16 rows with 6 flowers each, so total flowers are 16 times 6. Then, 29 flowers were removed. Calculation: Total flowers = 16 * 6 = 96. Flowers left = 96 - 29 = 67. Therefore, 67 flowers remain in the garden.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "Sophia collected 15 boxes of marbles, with 7 marbles in each box. If she lost 62 marbles during a game, how many marbles does she still have?",
+        "A": 43,
+        "F": "15*7-62",
+        "R": "Key facts: Sophia had 15 boxes with 7 marbles each, total marbles = 15*7=105. She lost 62 marbles. Calculation: Marbles remaining = 105 - 62 = 43.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "At a summer camp, 8 groups of children each had 11 sandwiches. After the children ate 53 sandwiches, how many sandwiches were left?",
+        "A": 35,
+        "F": "8*11-53",
+        "R": "Key facts: There are 8 groups with 11 sandwiches each, total sandwiches = 8*11=88. After eating 53 sandwiches, sandwiches left = 88 - 53 = 35.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "high"
+      },
+      {
+        "Q": "Lila collected 18 colorful shells at the beach. Then, she found 36 more shells and put them equally into 9 small jars. How many shells did she place in each jar?",
+        "A": 6,
+        "F": "(18+36)/9",
+        "R": "Key facts: Lila first collected 18 shells, then found 36 more, making a total of 18 + 36 = 54 shells. She divided these shells equally into 9 jars. Calculation: Divide the total shells by the number of jars to find how many shells per jar: 54 / 9 = 6. So, each jar has 6 shells.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "A classroom has 12 desks. Each desk has 7 pencils on it. After the teacher gave 15 more pencils to the class, how many pencils are there in total?",
+        "A": 99,
+        "F": "12*7+15",
+        "R": "Key facts: There are 12 desks with 7 pencils each, totaling 12 * 7 = 84 pencils. The teacher added 15 more pencils. Calculation: Add the extra pencils to the total pencils: 84 + 15 = 99. Therefore, there are 99 pencils in total.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Sofia bakes 8 batches of cookies. Each batch has 9 cookies. After giving away 32 cookies, how many cookies does she have left?",
+        "A": 40,
+        "F": "8*9-32",
+        "R": "Key facts: Sofia bakes 8 batches with 9 cookies each: 8 * 9 = 72 cookies total. She gives away 32 cookies. Calculation: Subtract given cookies from total: 72 - 32 = 40 cookies remaining.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "During the community art fair, Leah bought 12 paint sets and each set has 8 brushes. If she gave away 15 brushes to her friends, how many brushes does Leah have left?",
+        "A": 81,
+        "F": "12*8-15",
+        "R": "Key facts: Leah bought 12 paint sets with 8 brushes in each set, and she gave away 15 brushes. Calculation: Total brushes = 12 * 8 = 96. Brushes left after giving away = 96 - 15 = 81. Therefore, Leah has 81 brushes left.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "At the science museum, Arjun saw 14 dinosaur models, and each model had 7 labels describing different facts. If Arjun read 45 labels already, how many labels does he still need to read?",
+        "A": 53,
+        "F": "14*7-45",
+        "R": "Key facts: There are 14 dinosaur models with 7 labels each, and Arjun read 45 labels. Calculation: Total labels = 14 * 7 = 98. Labels left to read = 98 - 45 = 53. Arjun still needs to read 53 labels.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "medium"
+      },
+      {
+        "Q": "Mila has 24 beads. She makes 3 bracelets with 7 beads each. How many beads does she have left?",
+        "A": 3,
+        "F": "24-(3*7)",
+        "R": "Key facts: Mila starts with 24 beads. She uses 7 beads for each of 3 bracelets. Calculation: Total beads used = 3 * 7 = 21. Beads left = 24 - 21 = 3. Therefore, Mila has 3 beads left.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Liam bought 18 boxes. Each box holds 6 crayons. He gave 54 crayons to friends. How many crayons does Liam keep?",
+        "A": 54,
+        "F": "(18*6)-54",
+        "R": "Key facts: Liam bought 18 boxes with 6 crayons each. He gave away 54 crayons. Calculation: Total crayons = 18 * 6 = 108. Crayons kept = 108 - 54 = 54. Liam keeps 54 crayons.",
+        "Score": 1,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Lila collected 15 shiny rocks from the garden. She found 12 more near the pond. If she puts these rocks into boxes with 9 rocks each, how many boxes will she fill?",
+        "A": 3,
+        "F": "(15+12)/9",
+        "R": "Key facts: Lila found 15 rocks first, then 12 more rocks later, so the total rocks are 15 + 12 = 27. She packs rocks into boxes holding 9 each. Calculation: Dividing total rocks by rocks per box gives 27 / 9 = 3. So, Lila will fill 3 boxes.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "low"
+      },
+      {
+        "Q": "Jacob bought 48 balloons for a party. If he blew up 6 balloons for every 3 guests and there were 18 guests, how many balloons did he blow up?",
+        "A": 36,
+        "F": "(18*6)/3",
+        "R": "Key facts: Jacob has 48 balloons, each group of 3 guests uses 6 balloons, with 18 guests total. Calculation: Number of guest groups is 18 / 3 = 6. Total balloons blown up: 6 groups * 6 balloons = 36. So, Jacob blew up 36 balloons.",
+        "Score": 0,
+        "math_dl": 10,
+        "math_text_l": "low"
+      }
+    ]
+  }
+}
