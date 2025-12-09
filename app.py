@@ -85,10 +85,6 @@ def app_header():
 #  IMPORT CLASSES
 # ============================================================================
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")
-SESSION_DATA_DIR = os.path.join(os.getcwd(), "session_data")
-
 from mwp_classes import PromptGenerator, ProblemEvaluator, MWPGenerator, MWPSession
 
 st.set_page_config(page_title="Adaptive Math Practice", page_icon="🧮")
@@ -177,6 +173,10 @@ ensure_login()
 # ============================================================================
 # LOAD DATA
 # ============================================================================
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+SESSION_DATA_DIR = os.path.join(os.getcwd(), "session_data")
 
 @st.cache_data
 def load_data():
