@@ -15,12 +15,6 @@ import altair as alt
 st.set_page_config(
     page_title="Welcome to MathBuddies!",
     page_icon="🧮",
-    layout="centered"
-)
-
-st.set_page_config(
-    page_title="Welcome to MathBuddies!",
-    page_icon="🧮",
     layout="wide"
 )
 
@@ -608,6 +602,7 @@ if len(st.session_state.problem_queue) > 0 and len(st.session_state.problem_queu
 # ============================================================================
 # MAIN CONTENT: DISPLAY PROBLEM
 # ============================================================================
+st.set_page_config(page_title="Adaptive Math Practice", page_icon="🧮")
 
 # catch the problem to be displayed
 current_problem = st.session_state.problem_queue[st.session_state.current_problem_index] #get_current_problem()
@@ -701,6 +696,7 @@ if not st.session_state.exit_button:
 # ============================================================================
 # SUMMARY PAGE
 # ============================================================================
+st.set_page_config(page_title="Adaptive Math Practice", page_icon="🧮")
 
 if st.session_state.exit_button:
     st.header("🌟 Great Job Today!")
