@@ -2,6 +2,12 @@
 
 AI-powered adaptive math word problems that adjust to your skill level in real-time.
 
+## Developers
+
+[Chris John](mailto:chrisjohn47@berkeley.edu)
+[Hyung Jin Kim](mailto:hyungjinkim@berkeley.edu)
+[Eun-Hae Ko](mailto:eunhaeko@berkeley.edu)
+
 ## Features
 
 - ✨ Adaptive difficulty adjustment based on performance
