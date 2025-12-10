@@ -2,11 +2,11 @@
 
 AI-powered adaptive math word problems that adjust to your skill level in real-time.
 
-## Developers
+## The Math Buddies Team
 
-[Chris John](mailto:chrisjohn47@berkeley.edu), 
-[Hyung Jin Kim](mailto:hyungjinkim@berkeley.edu), 
-[Eun-Hae Ko](mailto:eunhaeko@berkeley.edu)
+- [Chris John](mailto:chrisjohn47@berkeley.edu): Project Manager, Infrastructure and Data Engineer, and EDA Lead
+- [Hyung Jin Kim](mailto:hyungjinkim@berkeley.edu): Resident SME, Product Manager, and Model Evaluation Lead
+- [Eun-Hae Ko](mailto:eunhaeko@berkeley.edu): Machine Learning Engineer and MVP Application Developer
 
 ## Features
 
